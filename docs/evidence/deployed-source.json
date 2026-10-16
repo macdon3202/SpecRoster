@@ -1,0 +1,8 @@
+{
+  "contract": "0x07B305921D3c315EBb6708e4F51797a57485bf90",
+  "code_bytes": 18364,
+  "deployed_sha256": "a91d61cbe236cf13ce96b8eead7087e960cce399061db1319c4dc9aa63bc3138",
+  "local_sha256": "a91d61cbe236cf13ce96b8eead7087e960cce399061db1319c4dc9aa63bc3138",
+  "exact_bytes_match": true,
+  "lf_normalized_match": true
+}

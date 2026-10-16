@@ -1,0 +1,1561 @@
+{
+  "contract": "0xB404f8Da18cc736aD21917929dc52993913F1D98",
+  "network": "studionet",
+  "mode": "cancel",
+  "wallet_a": "0xFeD97e2aE1A8C1983b7cA206B3545e6A2c685E43",
+  "wallet_b": "0xc67532aeF9D2879cBA9375a02E6217A3524657B8",
+  "main_wallet_used": false,
+  "writes": {
+    "create": {
+      "method": "create_round",
+      "args": [
+        "Wallet standards review sprint / cancel",
+        "[{\"title\": \"Typed signing domains\", \"requirement\": \"Review domain separation in typed structured data signatures.\", \"eip\": 712, \"commit\": \"0b06de5e1203b35f1338d9e61d1ccc6965face91\", \"digest\": \"459086f5a0b2d6a0ac4e404faebf3660a49aa4b1712711521093380689f02304\"}, {\"title\": \"Fee market review\", \"requirement\": \"Review the base fee adjustment mechanism for transaction fee markets.\", \"eip\": 1559, \"commit\": \"ba6c342c23164072adb500c3136e3ae6eabff306\", \"digest\": \"4460ad966a22d8501e12d75165c2c784c61748d8128229f115ebac1bfccac59f\"}]",
+        "[\"0xc67532aeF9D2879cBA9375a02E6217A3524657B8\"]"
+      ],
+      "actor": "0xFeD97e2aE1A8C1983b7cA206B3545e6A2c685E43",
+      "expected_error": null,
+      "before": {
+        "config": {
+          "architecture": "SEALED_BATCH_SEMANTIC_MATCHING",
+          "assignment_count": 4,
+          "capacity_scope": "PER_ROUND",
+          "deployer_authority": "NONE",
+          "funds": "NONE",
+          "max_attempts": 2,
+          "max_reviewers": 4,
+          "max_tasks": 4,
+          "round_count": 12,
+          "source_repository": "ethereum/EIPs",
+          "version": "SPEC_ROSTER_V4_CANDIDATE"
+        },
+        "focus": {
+          "method": "create_round",
+          "args": [
+            "Wallet standards review sprint / cancel",
+            "[{\"title\": \"Typed signing domains\", \"requirement\": \"Review domain separation in typed structured data signatures.\", \"eip\": 712, \"commit\": \"0b06de5e1203b35f1338d9e61d1ccc6965face91\", \"digest\": \"459086f5a0b2d6a0ac4e404faebf3660a49aa4b1712711521093380689f02304\"}, {\"title\": \"Fee market review\", \"requirement\": \"Review the base fee adjustment mechanism for transaction fee markets.\", \"eip\": 1559, \"commit\": \"ba6c342c23164072adb500c3136e3ae6eabff306\", \"digest\": \"4460ad966a22d8501e12d75165c2c784c61748d8128229f115ebac1bfccac59f\"}]",
+            "[\"0xc67532aeF9D2879cBA9375a02E6217A3524657B8\"]"
+          ]
+        }
+      },
+      "ethereum_hash": "0xeb92c8bcf3b1b39712520256e870ca97524acb3cdd64a542f1c5d233315e2e89",
+      "hash": "0xeb92c8bcf3b1b39712520256e870ca97524acb3cdd64a542f1c5d233315e2e89",
+      "explorer": "https://explorer-studio.genlayer.com/tx/0xeb92c8bcf3b1b39712520256e870ca97524acb3cdd64a542f1c5d233315e2e89",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "leader": {
+        "execution_result": "SUCCESS",
+        "result": {
+          "raw": "AGk=",
+          "status": "return",
+          "payload": {
+            "raw": [
+              105
+            ],
+            "readable": "13"
+          }
+        },
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        }
+      },
+      "after": {
+        "config": {
+          "architecture": "SEALED_BATCH_SEMANTIC_MATCHING",
+          "assignment_count": 4,
+          "capacity_scope": "PER_ROUND",
+          "deployer_authority": "NONE",
+          "funds": "NONE",
+          "max_attempts": 2,
+          "max_reviewers": 4,
+          "max_tasks": 4,
+          "round_count": 13,
+          "source_repository": "ethereum/EIPs",
+          "version": "SPEC_ROSTER_V4_CANDIDATE"
+        },
+        "focus": {
+          "method": "create_round",
+          "args": [
+            "Wallet standards review sprint / cancel",
+            "[{\"title\": \"Typed signing domains\", \"requirement\": \"Review domain separation in typed structured data signatures.\", \"eip\": 712, \"commit\": \"0b06de5e1203b35f1338d9e61d1ccc6965face91\", \"digest\": \"459086f5a0b2d6a0ac4e404faebf3660a49aa4b1712711521093380689f02304\"}, {\"title\": \"Fee market review\", \"requirement\": \"Review the base fee adjustment mechanism for transaction fee markets.\", \"eip\": 1559, \"commit\": \"ba6c342c23164072adb500c3136e3ae6eabff306\", \"digest\": \"4460ad966a22d8501e12d75165c2c784c61748d8128229f115ebac1bfccac59f\"}]",
+            "[\"0xc67532aeF9D2879cBA9375a02E6217A3524657B8\"]"
+          ]
+        },
+        "round": {
+          "allocation": [],
+          "attempts": 0,
+          "consents": [],
+          "id": 13,
+          "invites": [
+            "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+          ],
+          "matrix": [],
+          "owner": "0xFeD97e2aE1A8C1983b7cA206B3545e6A2c685E43",
+          "reason": "INTAKE_OPEN",
+          "reviewers": [],
+          "round_digest": "",
+          "state": "OPEN",
+          "tasks": [
+            {
+              "commit": "0b06de5e1203b35f1338d9e61d1ccc6965face91",
+              "digest": "459086f5a0b2d6a0ac4e404faebf3660a49aa4b1712711521093380689f02304",
+              "eip": 712,
+              "requirement": "Review domain separation in typed structured data signatures.",
+              "title": "Typed signing domains"
+            },
+            {
+              "commit": "ba6c342c23164072adb500c3136e3ae6eabff306",
+              "digest": "4460ad966a22d8501e12d75165c2c784c61748d8128229f115ebac1bfccac59f",
+              "eip": 1559,
+              "requirement": "Review the base fee adjustment mechanism for transaction fee markets.",
+              "title": "Fee market review"
+            }
+          ],
+          "title": "Wallet standards review sprint / cancel"
+        }
+      },
+      "verified": true
+    },
+    "scope": {
+      "method": "register_scope",
+      "args": [
+        13,
+        "I review typed signatures, domain separation and replay protection. I exclude transaction fee markets and base fee economics.",
+        1
+      ],
+      "actor": "0xc67532aeF9D2879cBA9375a02E6217A3524657B8",
+      "expected_error": null,
+      "before": {
+        "config": {
+          "architecture": "SEALED_BATCH_SEMANTIC_MATCHING",
+          "assignment_count": 4,
+          "capacity_scope": "PER_ROUND",
+          "deployer_authority": "NONE",
+          "funds": "NONE",
+          "max_attempts": 2,
+          "max_reviewers": 4,
+          "max_tasks": 4,
+          "round_count": 13,
+          "source_repository": "ethereum/EIPs",
+          "version": "SPEC_ROSTER_V4_CANDIDATE"
+        },
+        "focus": {
+          "method": "register_scope",
+          "args": [
+            13,
+            "I review typed signatures, domain separation and replay protection. I exclude transaction fee markets and base fee economics.",
+            1
+          ]
+        },
+        "round": {
+          "allocation": [],
+          "attempts": 0,
+          "consents": [],
+          "id": 13,
+          "invites": [
+            "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+          ],
+          "matrix": [],
+          "owner": "0xFeD97e2aE1A8C1983b7cA206B3545e6A2c685E43",
+          "reason": "INTAKE_OPEN",
+          "reviewers": [],
+          "round_digest": "",
+          "state": "OPEN",
+          "tasks": [
+            {
+              "commit": "0b06de5e1203b35f1338d9e61d1ccc6965face91",
+              "digest": "459086f5a0b2d6a0ac4e404faebf3660a49aa4b1712711521093380689f02304",
+              "eip": 712,
+              "requirement": "Review domain separation in typed structured data signatures.",
+              "title": "Typed signing domains"
+            },
+            {
+              "commit": "ba6c342c23164072adb500c3136e3ae6eabff306",
+              "digest": "4460ad966a22d8501e12d75165c2c784c61748d8128229f115ebac1bfccac59f",
+              "eip": 1559,
+              "requirement": "Review the base fee adjustment mechanism for transaction fee markets.",
+              "title": "Fee market review"
+            }
+          ],
+          "title": "Wallet standards review sprint / cancel"
+        }
+      },
+      "ethereum_hash": "0x457471262f85e9e6735e62ffeb7665451bc9b18770e45fb66814472df8917ea5",
+      "hash": "0x457471262f85e9e6735e62ffeb7665451bc9b18770e45fb66814472df8917ea5",
+      "explorer": "https://explorer-studio.genlayer.com/tx/0x457471262f85e9e6735e62ffeb7665451bc9b18770e45fb66814472df8917ea5",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "leader": {
+        "execution_result": "SUCCESS",
+        "result": {
+          "raw": "AFRSRUdJU1RFUkVE",
+          "status": "return",
+          "payload": {
+            "raw": [
+              84,
+              82,
+              69,
+              71,
+              73,
+              83,
+              84,
+              69,
+              82,
+              69,
+              68
+            ],
+            "readable": "\"REGISTERED\""
+          }
+        },
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        }
+      },
+      "after": {
+        "config": {
+          "architecture": "SEALED_BATCH_SEMANTIC_MATCHING",
+          "assignment_count": 4,
+          "capacity_scope": "PER_ROUND",
+          "deployer_authority": "NONE",
+          "funds": "NONE",
+          "max_attempts": 2,
+          "max_reviewers": 4,
+          "max_tasks": 4,
+          "round_count": 13,
+          "source_repository": "ethereum/EIPs",
+          "version": "SPEC_ROSTER_V4_CANDIDATE"
+        },
+        "focus": {
+          "method": "register_scope",
+          "args": [
+            13,
+            "I review typed signatures, domain separation and replay protection. I exclude transaction fee markets and base fee economics.",
+            1
+          ]
+        },
+        "round": {
+          "allocation": [],
+          "attempts": 0,
+          "consents": [],
+          "id": 13,
+          "invites": [
+            "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+          ],
+          "matrix": [],
+          "owner": "0xFeD97e2aE1A8C1983b7cA206B3545e6A2c685E43",
+          "reason": "INTAKE_OPEN",
+          "reviewers": [
+            {
+              "capacity": 1,
+              "scope": "I review typed signatures, domain separation and replay protection. I exclude transaction fee markets and base fee economics.",
+              "wallet": "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+            }
+          ],
+          "round_digest": "",
+          "state": "OPEN",
+          "tasks": [
+            {
+              "commit": "0b06de5e1203b35f1338d9e61d1ccc6965face91",
+              "digest": "459086f5a0b2d6a0ac4e404faebf3660a49aa4b1712711521093380689f02304",
+              "eip": 712,
+              "requirement": "Review domain separation in typed structured data signatures.",
+              "title": "Typed signing domains"
+            },
+            {
+              "commit": "ba6c342c23164072adb500c3136e3ae6eabff306",
+              "digest": "4460ad966a22d8501e12d75165c2c784c61748d8128229f115ebac1bfccac59f",
+              "eip": 1559,
+              "requirement": "Review the base fee adjustment mechanism for transaction fee markets.",
+              "title": "Fee market review"
+            }
+          ],
+          "title": "Wallet standards review sprint / cancel"
+        }
+      },
+      "verified": true
+    },
+    "freeze": {
+      "method": "freeze_round",
+      "args": [
+        13
+      ],
+      "actor": "0xFeD97e2aE1A8C1983b7cA206B3545e6A2c685E43",
+      "expected_error": null,
+      "before": {
+        "config": {
+          "architecture": "SEALED_BATCH_SEMANTIC_MATCHING",
+          "assignment_count": 4,
+          "capacity_scope": "PER_ROUND",
+          "deployer_authority": "NONE",
+          "funds": "NONE",
+          "max_attempts": 2,
+          "max_reviewers": 4,
+          "max_tasks": 4,
+          "round_count": 13,
+          "source_repository": "ethereum/EIPs",
+          "version": "SPEC_ROSTER_V4_CANDIDATE"
+        },
+        "focus": {
+          "method": "freeze_round",
+          "args": [
+            13
+          ]
+        },
+        "round": {
+          "allocation": [],
+          "attempts": 0,
+          "consents": [],
+          "id": 13,
+          "invites": [
+            "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+          ],
+          "matrix": [],
+          "owner": "0xFeD97e2aE1A8C1983b7cA206B3545e6A2c685E43",
+          "reason": "INTAKE_OPEN",
+          "reviewers": [
+            {
+              "capacity": 1,
+              "scope": "I review typed signatures, domain separation and replay protection. I exclude transaction fee markets and base fee economics.",
+              "wallet": "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+            }
+          ],
+          "round_digest": "",
+          "state": "OPEN",
+          "tasks": [
+            {
+              "commit": "0b06de5e1203b35f1338d9e61d1ccc6965face91",
+              "digest": "459086f5a0b2d6a0ac4e404faebf3660a49aa4b1712711521093380689f02304",
+              "eip": 712,
+              "requirement": "Review domain separation in typed structured data signatures.",
+              "title": "Typed signing domains"
+            },
+            {
+              "commit": "ba6c342c23164072adb500c3136e3ae6eabff306",
+              "digest": "4460ad966a22d8501e12d75165c2c784c61748d8128229f115ebac1bfccac59f",
+              "eip": 1559,
+              "requirement": "Review the base fee adjustment mechanism for transaction fee markets.",
+              "title": "Fee market review"
+            }
+          ],
+          "title": "Wallet standards review sprint / cancel"
+        }
+      },
+      "ethereum_hash": "0x3de00caa3154b1f7addbc15dde09904ae9afabb124fff5f2f2e71c8fd5782738",
+      "hash": "0x3de00caa3154b1f7addbc15dde09904ae9afabb124fff5f2f2e71c8fd5782738",
+      "explorer": "https://explorer-studio.genlayer.com/tx/0x3de00caa3154b1f7addbc15dde09904ae9afabb124fff5f2f2e71c8fd5782738",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "leader": {
+        "execution_result": "SUCCESS",
+        "result": {
+          "raw": "AIQENjVjNDQ1ZWY2OGQ1OGIxOWZjZTAwMjJiZTU5MzQyN2IxYzljOGE5MTE0ZGEzYzM4Y2EyODliMzdkZWZiOTNmMA==",
+          "status": "return",
+          "payload": {
+            "raw": [
+              132,
+              4,
+              54,
+              53,
+              99,
+              52,
+              52,
+              53,
+              101,
+              102,
+              54,
+              56,
+              100,
+              53,
+              56,
+              98,
+              49,
+              57,
+              102,
+              99,
+              101,
+              48,
+              48,
+              50,
+              50,
+              98,
+              101,
+              53,
+              57,
+              51,
+              52,
+              50,
+              55,
+              98,
+              49,
+              99,
+              57,
+              99,
+              56,
+              97,
+              57,
+              49,
+              49,
+              52,
+              100,
+              97,
+              51,
+              99,
+              51,
+              56,
+              99,
+              97,
+              50,
+              56,
+              57,
+              98,
+              51,
+              55,
+              100,
+              101,
+              102,
+              98,
+              57,
+              51,
+              102,
+              48
+            ],
+            "readable": "\"65c445ef68d58b19fce0022be593427b1c9c8a9114da3c38ca289b37defb93f0\""
+          }
+        },
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        }
+      },
+      "after": {
+        "config": {
+          "architecture": "SEALED_BATCH_SEMANTIC_MATCHING",
+          "assignment_count": 4,
+          "capacity_scope": "PER_ROUND",
+          "deployer_authority": "NONE",
+          "funds": "NONE",
+          "max_attempts": 2,
+          "max_reviewers": 4,
+          "max_tasks": 4,
+          "round_count": 13,
+          "source_repository": "ethereum/EIPs",
+          "version": "SPEC_ROSTER_V4_CANDIDATE"
+        },
+        "focus": {
+          "method": "freeze_round",
+          "args": [
+            13
+          ]
+        },
+        "round": {
+          "allocation": [],
+          "attempts": 0,
+          "consents": [],
+          "id": 13,
+          "invites": [
+            "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+          ],
+          "matrix": [],
+          "owner": "0xFeD97e2aE1A8C1983b7cA206B3545e6A2c685E43",
+          "reason": "EXACT_CONSENT_REQUIRED",
+          "reviewers": [
+            {
+              "capacity": 1,
+              "scope": "I review typed signatures, domain separation and replay protection. I exclude transaction fee markets and base fee economics.",
+              "wallet": "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+            }
+          ],
+          "round_digest": "65c445ef68d58b19fce0022be593427b1c9c8a9114da3c38ca289b37defb93f0",
+          "state": "FROZEN",
+          "tasks": [
+            {
+              "commit": "0b06de5e1203b35f1338d9e61d1ccc6965face91",
+              "digest": "459086f5a0b2d6a0ac4e404faebf3660a49aa4b1712711521093380689f02304",
+              "eip": 712,
+              "requirement": "Review domain separation in typed structured data signatures.",
+              "title": "Typed signing domains"
+            },
+            {
+              "commit": "ba6c342c23164072adb500c3136e3ae6eabff306",
+              "digest": "4460ad966a22d8501e12d75165c2c784c61748d8128229f115ebac1bfccac59f",
+              "eip": 1559,
+              "requirement": "Review the base fee adjustment mechanism for transaction fee markets.",
+              "title": "Fee market review"
+            }
+          ],
+          "title": "Wallet standards review sprint / cancel"
+        }
+      },
+      "verified": true
+    },
+    "consent": {
+      "method": "consent_round",
+      "args": [
+        13,
+        "65c445ef68d58b19fce0022be593427b1c9c8a9114da3c38ca289b37defb93f0"
+      ],
+      "actor": "0xc67532aeF9D2879cBA9375a02E6217A3524657B8",
+      "expected_error": null,
+      "before": {
+        "config": {
+          "architecture": "SEALED_BATCH_SEMANTIC_MATCHING",
+          "assignment_count": 5,
+          "capacity_scope": "PER_ROUND",
+          "deployer_authority": "NONE",
+          "funds": "NONE",
+          "max_attempts": 2,
+          "max_reviewers": 4,
+          "max_tasks": 4,
+          "round_count": 13,
+          "source_repository": "ethereum/EIPs",
+          "version": "SPEC_ROSTER_V4_CANDIDATE"
+        },
+        "focus": {
+          "method": "consent_round",
+          "args": [
+            13,
+            "65c445ef68d58b19fce0022be593427b1c9c8a9114da3c38ca289b37defb93f0"
+          ]
+        },
+        "round": {
+          "allocation": [],
+          "attempts": 0,
+          "consents": [],
+          "id": 13,
+          "invites": [
+            "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+          ],
+          "matrix": [],
+          "owner": "0xFeD97e2aE1A8C1983b7cA206B3545e6A2c685E43",
+          "reason": "EXACT_CONSENT_REQUIRED",
+          "reviewers": [
+            {
+              "capacity": 1,
+              "scope": "I review typed signatures, domain separation and replay protection. I exclude transaction fee markets and base fee economics.",
+              "wallet": "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+            }
+          ],
+          "round_digest": "65c445ef68d58b19fce0022be593427b1c9c8a9114da3c38ca289b37defb93f0",
+          "state": "FROZEN",
+          "tasks": [
+            {
+              "commit": "0b06de5e1203b35f1338d9e61d1ccc6965face91",
+              "digest": "459086f5a0b2d6a0ac4e404faebf3660a49aa4b1712711521093380689f02304",
+              "eip": 712,
+              "requirement": "Review domain separation in typed structured data signatures.",
+              "title": "Typed signing domains"
+            },
+            {
+              "commit": "ba6c342c23164072adb500c3136e3ae6eabff306",
+              "digest": "4460ad966a22d8501e12d75165c2c784c61748d8128229f115ebac1bfccac59f",
+              "eip": 1559,
+              "requirement": "Review the base fee adjustment mechanism for transaction fee markets.",
+              "title": "Fee market review"
+            }
+          ],
+          "title": "Wallet standards review sprint / cancel"
+        }
+      },
+      "ethereum_hash": "0xcd548c13209dcce5faf0824e39361b4ad3bb944df0c6a30f19e6dbf36d0de2e4",
+      "hash": "0xcd548c13209dcce5faf0824e39361b4ad3bb944df0c6a30f19e6dbf36d0de2e4",
+      "explorer": "https://explorer-studio.genlayer.com/tx/0xcd548c13209dcce5faf0824e39361b4ad3bb944df0c6a30f19e6dbf36d0de2e4",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "leader": {
+        "execution_result": "SUCCESS",
+        "result": {
+          "raw": "AExDT05TRU5URUQ=",
+          "status": "return",
+          "payload": {
+            "raw": [
+              76,
+              67,
+              79,
+              78,
+              83,
+              69,
+              78,
+              84,
+              69,
+              68
+            ],
+            "readable": "\"CONSENTED\""
+          }
+        },
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        }
+      },
+      "after": {
+        "config": {
+          "architecture": "SEALED_BATCH_SEMANTIC_MATCHING",
+          "assignment_count": 5,
+          "capacity_scope": "PER_ROUND",
+          "deployer_authority": "NONE",
+          "funds": "NONE",
+          "max_attempts": 2,
+          "max_reviewers": 4,
+          "max_tasks": 4,
+          "round_count": 13,
+          "source_repository": "ethereum/EIPs",
+          "version": "SPEC_ROSTER_V4_CANDIDATE"
+        },
+        "focus": {
+          "method": "consent_round",
+          "args": [
+            13,
+            "65c445ef68d58b19fce0022be593427b1c9c8a9114da3c38ca289b37defb93f0"
+          ]
+        },
+        "round": {
+          "allocation": [],
+          "attempts": 0,
+          "consents": [
+            "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+          ],
+          "id": 13,
+          "invites": [
+            "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+          ],
+          "matrix": [],
+          "owner": "0xFeD97e2aE1A8C1983b7cA206B3545e6A2c685E43",
+          "reason": "EXACT_CONSENT_REQUIRED",
+          "reviewers": [
+            {
+              "capacity": 1,
+              "scope": "I review typed signatures, domain separation and replay protection. I exclude transaction fee markets and base fee economics.",
+              "wallet": "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+            }
+          ],
+          "round_digest": "65c445ef68d58b19fce0022be593427b1c9c8a9114da3c38ca289b37defb93f0",
+          "state": "FROZEN",
+          "tasks": [
+            {
+              "commit": "0b06de5e1203b35f1338d9e61d1ccc6965face91",
+              "digest": "459086f5a0b2d6a0ac4e404faebf3660a49aa4b1712711521093380689f02304",
+              "eip": 712,
+              "requirement": "Review domain separation in typed structured data signatures.",
+              "title": "Typed signing domains"
+            },
+            {
+              "commit": "ba6c342c23164072adb500c3136e3ae6eabff306",
+              "digest": "4460ad966a22d8501e12d75165c2c784c61748d8128229f115ebac1bfccac59f",
+              "eip": 1559,
+              "requirement": "Review the base fee adjustment mechanism for transaction fee markets.",
+              "title": "Fee market review"
+            }
+          ],
+          "title": "Wallet standards review sprint / cancel"
+        }
+      },
+      "verified": true
+    },
+    "allocate": {
+      "method": "allocate_round",
+      "args": [
+        13,
+        "65c445ef68d58b19fce0022be593427b1c9c8a9114da3c38ca289b37defb93f0"
+      ],
+      "actor": "0xFeD97e2aE1A8C1983b7cA206B3545e6A2c685E43",
+      "expected_error": null,
+      "before": {
+        "config": {
+          "architecture": "SEALED_BATCH_SEMANTIC_MATCHING",
+          "assignment_count": 5,
+          "capacity_scope": "PER_ROUND",
+          "deployer_authority": "NONE",
+          "funds": "NONE",
+          "max_attempts": 2,
+          "max_reviewers": 4,
+          "max_tasks": 4,
+          "round_count": 13,
+          "source_repository": "ethereum/EIPs",
+          "version": "SPEC_ROSTER_V4_CANDIDATE"
+        },
+        "focus": {
+          "method": "allocate_round",
+          "args": [
+            13,
+            "65c445ef68d58b19fce0022be593427b1c9c8a9114da3c38ca289b37defb93f0"
+          ]
+        },
+        "round": {
+          "allocation": [],
+          "attempts": 0,
+          "consents": [
+            "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+          ],
+          "id": 13,
+          "invites": [
+            "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+          ],
+          "matrix": [],
+          "owner": "0xFeD97e2aE1A8C1983b7cA206B3545e6A2c685E43",
+          "reason": "EXACT_CONSENT_REQUIRED",
+          "reviewers": [
+            {
+              "capacity": 1,
+              "scope": "I review typed signatures, domain separation and replay protection. I exclude transaction fee markets and base fee economics.",
+              "wallet": "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+            }
+          ],
+          "round_digest": "65c445ef68d58b19fce0022be593427b1c9c8a9114da3c38ca289b37defb93f0",
+          "state": "FROZEN",
+          "tasks": [
+            {
+              "commit": "0b06de5e1203b35f1338d9e61d1ccc6965face91",
+              "digest": "459086f5a0b2d6a0ac4e404faebf3660a49aa4b1712711521093380689f02304",
+              "eip": 712,
+              "requirement": "Review domain separation in typed structured data signatures.",
+              "title": "Typed signing domains"
+            },
+            {
+              "commit": "ba6c342c23164072adb500c3136e3ae6eabff306",
+              "digest": "4460ad966a22d8501e12d75165c2c784c61748d8128229f115ebac1bfccac59f",
+              "eip": 1559,
+              "requirement": "Review the base fee adjustment mechanism for transaction fee markets.",
+              "title": "Fee market review"
+            }
+          ],
+          "title": "Wallet standards review sprint / cancel"
+        }
+      },
+      "ethereum_hash": "0xe112e7b3a5c4913a85e41c82fe9ecc246eecd6f53590922a2cb2a42a8e97dea4",
+      "hash": "0xe112e7b3a5c4913a85e41c82fe9ecc246eecd6f53590922a2cb2a42a8e97dea4",
+      "explorer": "https://explorer-studio.genlayer.com/tx/0xe112e7b3a5c4913a85e41c82fe9ecc246eecd6f53590922a2cb2a42a8e97dea4",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "leader": {
+        "execution_result": "SUCCESS",
+        "result": {
+          "raw": "AExBTExPQ0FURUQ=",
+          "status": "return",
+          "payload": {
+            "raw": [
+              76,
+              65,
+              76,
+              76,
+              79,
+              67,
+              65,
+              84,
+              69,
+              68
+            ],
+            "readable": "\"ALLOCATED\""
+          }
+        },
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "SPEC_ROSTER_DIAGNOSTIC:FACTS:{\"scope_coverage\":\"YES\",\"scope_exclusion\":\"NO\",\"scope_index\":0,\"source_index\":22,\"source_support\":\"YES\"}\nSPEC_ROSTER_DIAGNOSTIC:FACTS:{\"scope_coverage\":\"NO\",\"scope_exclusion\":\"YES\",\"scope_index\":0,\"source_index\":23,\"source_support\":\"YES\"}\n",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        }
+      },
+      "after": {
+        "config": {
+          "architecture": "SEALED_BATCH_SEMANTIC_MATCHING",
+          "assignment_count": 6,
+          "capacity_scope": "PER_ROUND",
+          "deployer_authority": "NONE",
+          "funds": "NONE",
+          "max_attempts": 2,
+          "max_reviewers": 4,
+          "max_tasks": 4,
+          "round_count": 13,
+          "source_repository": "ethereum/EIPs",
+          "version": "SPEC_ROSTER_V4_CANDIDATE"
+        },
+        "focus": {
+          "method": "allocate_round",
+          "args": [
+            13,
+            "65c445ef68d58b19fce0022be593427b1c9c8a9114da3c38ca289b37defb93f0"
+          ]
+        },
+        "round": {
+          "allocation": [
+            {
+              "assignment_id": 6,
+              "reviewer": 0,
+              "task": 0
+            }
+          ],
+          "attempts": 1,
+          "consents": [
+            "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+          ],
+          "id": 13,
+          "invites": [
+            "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+          ],
+          "matrix": [
+            [
+              "FIT"
+            ],
+            [
+              "OUT"
+            ]
+          ],
+          "owner": "0xFeD97e2aE1A8C1983b7cA206B3545e6A2c685E43",
+          "reason": "CAPACITY_BOUNDED_MATCHING",
+          "reviewers": [
+            {
+              "capacity": 1,
+              "scope": "I review typed signatures, domain separation and replay protection. I exclude transaction fee markets and base fee economics.",
+              "wallet": "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+            }
+          ],
+          "round_digest": "65c445ef68d58b19fce0022be593427b1c9c8a9114da3c38ca289b37defb93f0",
+          "state": "ALLOCATED",
+          "tasks": [
+            {
+              "commit": "0b06de5e1203b35f1338d9e61d1ccc6965face91",
+              "digest": "459086f5a0b2d6a0ac4e404faebf3660a49aa4b1712711521093380689f02304",
+              "eip": 712,
+              "requirement": "Review domain separation in typed structured data signatures.",
+              "title": "Typed signing domains"
+            },
+            {
+              "commit": "ba6c342c23164072adb500c3136e3ae6eabff306",
+              "digest": "4460ad966a22d8501e12d75165c2c784c61748d8128229f115ebac1bfccac59f",
+              "eip": 1559,
+              "requirement": "Review the base fee adjustment mechanism for transaction fee markets.",
+              "title": "Fee market review"
+            }
+          ],
+          "title": "Wallet standards review sprint / cancel"
+        }
+      },
+      "verified": true
+    },
+    "accept": {
+      "method": "update_assignment",
+      "args": [
+        6,
+        "65c445ef68d58b19fce0022be593427b1c9c8a9114da3c38ca289b37defb93f0",
+        "ACCEPT",
+        ""
+      ],
+      "actor": "0xc67532aeF9D2879cBA9375a02E6217A3524657B8",
+      "expected_error": null,
+      "before": {
+        "config": {
+          "architecture": "SEALED_BATCH_SEMANTIC_MATCHING",
+          "assignment_count": 6,
+          "capacity_scope": "PER_ROUND",
+          "deployer_authority": "NONE",
+          "funds": "NONE",
+          "max_attempts": 2,
+          "max_reviewers": 4,
+          "max_tasks": 4,
+          "round_count": 13,
+          "source_repository": "ethereum/EIPs",
+          "version": "SPEC_ROSTER_V4_CANDIDATE"
+        },
+        "focus": {
+          "method": "update_assignment",
+          "args": [
+            6,
+            "65c445ef68d58b19fce0022be593427b1c9c8a9114da3c38ca289b37defb93f0",
+            "ACCEPT",
+            ""
+          ]
+        },
+        "assignment": {
+          "assignee": "0xc67532aeF9D2879cBA9375a02E6217A3524657B8",
+          "id": 6,
+          "review": "",
+          "round_digest": "65c445ef68d58b19fce0022be593427b1c9c8a9114da3c38ca289b37defb93f0",
+          "round_id": 13,
+          "state": "ASSIGNED",
+          "task_index": 0
+        },
+        "round": {
+          "allocation": [
+            {
+              "assignment_id": 6,
+              "reviewer": 0,
+              "task": 0
+            }
+          ],
+          "attempts": 1,
+          "consents": [
+            "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+          ],
+          "id": 13,
+          "invites": [
+            "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+          ],
+          "matrix": [
+            [
+              "FIT"
+            ],
+            [
+              "OUT"
+            ]
+          ],
+          "owner": "0xFeD97e2aE1A8C1983b7cA206B3545e6A2c685E43",
+          "reason": "CAPACITY_BOUNDED_MATCHING",
+          "reviewers": [
+            {
+              "capacity": 1,
+              "scope": "I review typed signatures, domain separation and replay protection. I exclude transaction fee markets and base fee economics.",
+              "wallet": "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+            }
+          ],
+          "round_digest": "65c445ef68d58b19fce0022be593427b1c9c8a9114da3c38ca289b37defb93f0",
+          "state": "ALLOCATED",
+          "tasks": [
+            {
+              "commit": "0b06de5e1203b35f1338d9e61d1ccc6965face91",
+              "digest": "459086f5a0b2d6a0ac4e404faebf3660a49aa4b1712711521093380689f02304",
+              "eip": 712,
+              "requirement": "Review domain separation in typed structured data signatures.",
+              "title": "Typed signing domains"
+            },
+            {
+              "commit": "ba6c342c23164072adb500c3136e3ae6eabff306",
+              "digest": "4460ad966a22d8501e12d75165c2c784c61748d8128229f115ebac1bfccac59f",
+              "eip": 1559,
+              "requirement": "Review the base fee adjustment mechanism for transaction fee markets.",
+              "title": "Fee market review"
+            }
+          ],
+          "title": "Wallet standards review sprint / cancel"
+        }
+      },
+      "ethereum_hash": "0x6efb58fd227f1659591e3601a991e95130a893022f63d5182794bf45cf47fddf",
+      "hash": "0x6efb58fd227f1659591e3601a991e95130a893022f63d5182794bf45cf47fddf",
+      "explorer": "https://explorer-studio.genlayer.com/tx/0x6efb58fd227f1659591e3601a991e95130a893022f63d5182794bf45cf47fddf",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "leader": {
+        "execution_result": "SUCCESS",
+        "result": {
+          "raw": "AERBQ0NFUFRFRA==",
+          "status": "return",
+          "payload": {
+            "raw": [
+              68,
+              65,
+              67,
+              67,
+              69,
+              80,
+              84,
+              69,
+              68
+            ],
+            "readable": "\"ACCEPTED\""
+          }
+        },
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        }
+      },
+      "after": {
+        "config": {
+          "architecture": "SEALED_BATCH_SEMANTIC_MATCHING",
+          "assignment_count": 6,
+          "capacity_scope": "PER_ROUND",
+          "deployer_authority": "NONE",
+          "funds": "NONE",
+          "max_attempts": 2,
+          "max_reviewers": 4,
+          "max_tasks": 4,
+          "round_count": 13,
+          "source_repository": "ethereum/EIPs",
+          "version": "SPEC_ROSTER_V4_CANDIDATE"
+        },
+        "focus": {
+          "method": "update_assignment",
+          "args": [
+            6,
+            "65c445ef68d58b19fce0022be593427b1c9c8a9114da3c38ca289b37defb93f0",
+            "ACCEPT",
+            ""
+          ]
+        },
+        "assignment": {
+          "assignee": "0xc67532aeF9D2879cBA9375a02E6217A3524657B8",
+          "id": 6,
+          "review": "",
+          "round_digest": "65c445ef68d58b19fce0022be593427b1c9c8a9114da3c38ca289b37defb93f0",
+          "round_id": 13,
+          "state": "ACCEPTED",
+          "task_index": 0
+        },
+        "round": {
+          "allocation": [
+            {
+              "assignment_id": 6,
+              "reviewer": 0,
+              "task": 0
+            }
+          ],
+          "attempts": 1,
+          "consents": [
+            "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+          ],
+          "id": 13,
+          "invites": [
+            "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+          ],
+          "matrix": [
+            [
+              "FIT"
+            ],
+            [
+              "OUT"
+            ]
+          ],
+          "owner": "0xFeD97e2aE1A8C1983b7cA206B3545e6A2c685E43",
+          "reason": "CAPACITY_BOUNDED_MATCHING",
+          "reviewers": [
+            {
+              "capacity": 1,
+              "scope": "I review typed signatures, domain separation and replay protection. I exclude transaction fee markets and base fee economics.",
+              "wallet": "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+            }
+          ],
+          "round_digest": "65c445ef68d58b19fce0022be593427b1c9c8a9114da3c38ca289b37defb93f0",
+          "state": "ALLOCATED",
+          "tasks": [
+            {
+              "commit": "0b06de5e1203b35f1338d9e61d1ccc6965face91",
+              "digest": "459086f5a0b2d6a0ac4e404faebf3660a49aa4b1712711521093380689f02304",
+              "eip": 712,
+              "requirement": "Review domain separation in typed structured data signatures.",
+              "title": "Typed signing domains"
+            },
+            {
+              "commit": "ba6c342c23164072adb500c3136e3ae6eabff306",
+              "digest": "4460ad966a22d8501e12d75165c2c784c61748d8128229f115ebac1bfccac59f",
+              "eip": 1559,
+              "requirement": "Review the base fee adjustment mechanism for transaction fee markets.",
+              "title": "Fee market review"
+            }
+          ],
+          "title": "Wallet standards review sprint / cancel"
+        }
+      },
+      "verified": true
+    },
+    "cancel": {
+      "method": "cancel_round",
+      "args": [
+        13,
+        "65c445ef68d58b19fce0022be593427b1c9c8a9114da3c38ca289b37defb93f0"
+      ],
+      "actor": "0xFeD97e2aE1A8C1983b7cA206B3545e6A2c685E43",
+      "expected_error": null,
+      "before": {
+        "config": {
+          "architecture": "SEALED_BATCH_SEMANTIC_MATCHING",
+          "assignment_count": 6,
+          "capacity_scope": "PER_ROUND",
+          "deployer_authority": "NONE",
+          "funds": "NONE",
+          "max_attempts": 2,
+          "max_reviewers": 4,
+          "max_tasks": 4,
+          "round_count": 13,
+          "source_repository": "ethereum/EIPs",
+          "version": "SPEC_ROSTER_V4_CANDIDATE"
+        },
+        "focus": {
+          "method": "cancel_round",
+          "args": [
+            13,
+            "65c445ef68d58b19fce0022be593427b1c9c8a9114da3c38ca289b37defb93f0"
+          ]
+        },
+        "round": {
+          "allocation": [
+            {
+              "assignment_id": 6,
+              "reviewer": 0,
+              "task": 0
+            }
+          ],
+          "attempts": 1,
+          "consents": [
+            "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+          ],
+          "id": 13,
+          "invites": [
+            "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+          ],
+          "matrix": [
+            [
+              "FIT"
+            ],
+            [
+              "OUT"
+            ]
+          ],
+          "owner": "0xFeD97e2aE1A8C1983b7cA206B3545e6A2c685E43",
+          "reason": "CAPACITY_BOUNDED_MATCHING",
+          "reviewers": [
+            {
+              "capacity": 1,
+              "scope": "I review typed signatures, domain separation and replay protection. I exclude transaction fee markets and base fee economics.",
+              "wallet": "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+            }
+          ],
+          "round_digest": "65c445ef68d58b19fce0022be593427b1c9c8a9114da3c38ca289b37defb93f0",
+          "state": "ALLOCATED",
+          "tasks": [
+            {
+              "commit": "0b06de5e1203b35f1338d9e61d1ccc6965face91",
+              "digest": "459086f5a0b2d6a0ac4e404faebf3660a49aa4b1712711521093380689f02304",
+              "eip": 712,
+              "requirement": "Review domain separation in typed structured data signatures.",
+              "title": "Typed signing domains"
+            },
+            {
+              "commit": "ba6c342c23164072adb500c3136e3ae6eabff306",
+              "digest": "4460ad966a22d8501e12d75165c2c784c61748d8128229f115ebac1bfccac59f",
+              "eip": 1559,
+              "requirement": "Review the base fee adjustment mechanism for transaction fee markets.",
+              "title": "Fee market review"
+            }
+          ],
+          "title": "Wallet standards review sprint / cancel"
+        }
+      },
+      "ethereum_hash": "0xfa8194ab948f9c25cbd888e152b661b91a7d90bb628108660f8cb104a309cf56",
+      "hash": "0xfa8194ab948f9c25cbd888e152b661b91a7d90bb628108660f8cb104a309cf56",
+      "explorer": "https://explorer-studio.genlayer.com/tx/0xfa8194ab948f9c25cbd888e152b661b91a7d90bb628108660f8cb104a309cf56",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "leader": {
+        "execution_result": "SUCCESS",
+        "result": {
+          "raw": "AExDQU5DRUxMRUQ=",
+          "status": "return",
+          "payload": {
+            "raw": [
+              76,
+              67,
+              65,
+              78,
+              67,
+              69,
+              76,
+              76,
+              69,
+              68
+            ],
+            "readable": "\"CANCELLED\""
+          }
+        },
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        }
+      },
+      "after": {
+        "config": {
+          "architecture": "SEALED_BATCH_SEMANTIC_MATCHING",
+          "assignment_count": 6,
+          "capacity_scope": "PER_ROUND",
+          "deployer_authority": "NONE",
+          "funds": "NONE",
+          "max_attempts": 2,
+          "max_reviewers": 4,
+          "max_tasks": 4,
+          "round_count": 13,
+          "source_repository": "ethereum/EIPs",
+          "version": "SPEC_ROSTER_V4_CANDIDATE"
+        },
+        "focus": {
+          "method": "cancel_round",
+          "args": [
+            13,
+            "65c445ef68d58b19fce0022be593427b1c9c8a9114da3c38ca289b37defb93f0"
+          ]
+        },
+        "round": {
+          "allocation": [
+            {
+              "assignment_id": 6,
+              "reviewer": 0,
+              "task": 0
+            }
+          ],
+          "attempts": 1,
+          "consents": [
+            "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+          ],
+          "id": 13,
+          "invites": [
+            "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+          ],
+          "matrix": [
+            [
+              "FIT"
+            ],
+            [
+              "OUT"
+            ]
+          ],
+          "owner": "0xFeD97e2aE1A8C1983b7cA206B3545e6A2c685E43",
+          "reason": "OWNER_CANCELLED_UNFINISHED_WORK",
+          "reviewers": [
+            {
+              "capacity": 1,
+              "scope": "I review typed signatures, domain separation and replay protection. I exclude transaction fee markets and base fee economics.",
+              "wallet": "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+            }
+          ],
+          "round_digest": "65c445ef68d58b19fce0022be593427b1c9c8a9114da3c38ca289b37defb93f0",
+          "state": "CANCELLED",
+          "tasks": [
+            {
+              "commit": "0b06de5e1203b35f1338d9e61d1ccc6965face91",
+              "digest": "459086f5a0b2d6a0ac4e404faebf3660a49aa4b1712711521093380689f02304",
+              "eip": 712,
+              "requirement": "Review domain separation in typed structured data signatures.",
+              "title": "Typed signing domains"
+            },
+            {
+              "commit": "ba6c342c23164072adb500c3136e3ae6eabff306",
+              "digest": "4460ad966a22d8501e12d75165c2c784c61748d8128229f115ebac1bfccac59f",
+              "eip": 1559,
+              "requirement": "Review the base fee adjustment mechanism for transaction fee markets.",
+              "title": "Fee market review"
+            }
+          ],
+          "title": "Wallet standards review sprint / cancel"
+        }
+      },
+      "verified": true
+    },
+    "late_submit": {
+      "method": "update_assignment",
+      "args": [
+        6,
+        "65c445ef68d58b19fce0022be593427b1c9c8a9114da3c38ca289b37defb93f0",
+        "SUBMIT",
+        "Late work"
+      ],
+      "actor": "0xc67532aeF9D2879cBA9375a02E6217A3524657B8",
+      "expected_error": "STALE_ASSIGNMENT",
+      "before": {
+        "config": {
+          "architecture": "SEALED_BATCH_SEMANTIC_MATCHING",
+          "assignment_count": 6,
+          "capacity_scope": "PER_ROUND",
+          "deployer_authority": "NONE",
+          "funds": "NONE",
+          "max_attempts": 2,
+          "max_reviewers": 4,
+          "max_tasks": 4,
+          "round_count": 13,
+          "source_repository": "ethereum/EIPs",
+          "version": "SPEC_ROSTER_V4_CANDIDATE"
+        },
+        "focus": {
+          "method": "update_assignment",
+          "args": [
+            6,
+            "65c445ef68d58b19fce0022be593427b1c9c8a9114da3c38ca289b37defb93f0",
+            "SUBMIT",
+            "Late work"
+          ]
+        },
+        "assignment": {
+          "assignee": "0xc67532aeF9D2879cBA9375a02E6217A3524657B8",
+          "id": 6,
+          "review": "",
+          "round_digest": "65c445ef68d58b19fce0022be593427b1c9c8a9114da3c38ca289b37defb93f0",
+          "round_id": 13,
+          "state": "CANCELLED",
+          "task_index": 0
+        },
+        "round": {
+          "allocation": [
+            {
+              "assignment_id": 6,
+              "reviewer": 0,
+              "task": 0
+            }
+          ],
+          "attempts": 1,
+          "consents": [
+            "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+          ],
+          "id": 13,
+          "invites": [
+            "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+          ],
+          "matrix": [
+            [
+              "FIT"
+            ],
+            [
+              "OUT"
+            ]
+          ],
+          "owner": "0xFeD97e2aE1A8C1983b7cA206B3545e6A2c685E43",
+          "reason": "OWNER_CANCELLED_UNFINISHED_WORK",
+          "reviewers": [
+            {
+              "capacity": 1,
+              "scope": "I review typed signatures, domain separation and replay protection. I exclude transaction fee markets and base fee economics.",
+              "wallet": "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+            }
+          ],
+          "round_digest": "65c445ef68d58b19fce0022be593427b1c9c8a9114da3c38ca289b37defb93f0",
+          "state": "CANCELLED",
+          "tasks": [
+            {
+              "commit": "0b06de5e1203b35f1338d9e61d1ccc6965face91",
+              "digest": "459086f5a0b2d6a0ac4e404faebf3660a49aa4b1712711521093380689f02304",
+              "eip": 712,
+              "requirement": "Review domain separation in typed structured data signatures.",
+              "title": "Typed signing domains"
+            },
+            {
+              "commit": "ba6c342c23164072adb500c3136e3ae6eabff306",
+              "digest": "4460ad966a22d8501e12d75165c2c784c61748d8128229f115ebac1bfccac59f",
+              "eip": 1559,
+              "requirement": "Review the base fee adjustment mechanism for transaction fee markets.",
+              "title": "Fee market review"
+            }
+          ],
+          "title": "Wallet standards review sprint / cancel"
+        }
+      },
+      "ethereum_hash": "0xc3a9b6ff808d7b146fe19c97ee7157ae2431e1aea74dd96c70003a3e7bd02771",
+      "hash": "0xc3a9b6ff808d7b146fe19c97ee7157ae2431e1aea74dd96c70003a3e7bd02771",
+      "explorer": "https://explorer-studio.genlayer.com/tx/0xc3a9b6ff808d7b146fe19c97ee7157ae2431e1aea74dd96c70003a3e7bd02771",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "leader": {
+        "execution_result": "ERROR",
+        "result": {
+          "raw": "AVNUQUxFX0FTU0lHTk1FTlQ=",
+          "status": "rollback",
+          "payload": "STALE_ASSIGNMENT"
+        },
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        }
+      },
+      "after": {
+        "config": {
+          "architecture": "SEALED_BATCH_SEMANTIC_MATCHING",
+          "assignment_count": 6,
+          "capacity_scope": "PER_ROUND",
+          "deployer_authority": "NONE",
+          "funds": "NONE",
+          "max_attempts": 2,
+          "max_reviewers": 4,
+          "max_tasks": 4,
+          "round_count": 13,
+          "source_repository": "ethereum/EIPs",
+          "version": "SPEC_ROSTER_V4_CANDIDATE"
+        },
+        "focus": {
+          "method": "update_assignment",
+          "args": [
+            6,
+            "65c445ef68d58b19fce0022be593427b1c9c8a9114da3c38ca289b37defb93f0",
+            "SUBMIT",
+            "Late work"
+          ]
+        },
+        "assignment": {
+          "assignee": "0xc67532aeF9D2879cBA9375a02E6217A3524657B8",
+          "id": 6,
+          "review": "",
+          "round_digest": "65c445ef68d58b19fce0022be593427b1c9c8a9114da3c38ca289b37defb93f0",
+          "round_id": 13,
+          "state": "CANCELLED",
+          "task_index": 0
+        },
+        "round": {
+          "allocation": [
+            {
+              "assignment_id": 6,
+              "reviewer": 0,
+              "task": 0
+            }
+          ],
+          "attempts": 1,
+          "consents": [
+            "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+          ],
+          "id": 13,
+          "invites": [
+            "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+          ],
+          "matrix": [
+            [
+              "FIT"
+            ],
+            [
+              "OUT"
+            ]
+          ],
+          "owner": "0xFeD97e2aE1A8C1983b7cA206B3545e6A2c685E43",
+          "reason": "OWNER_CANCELLED_UNFINISHED_WORK",
+          "reviewers": [
+            {
+              "capacity": 1,
+              "scope": "I review typed signatures, domain separation and replay protection. I exclude transaction fee markets and base fee economics.",
+              "wallet": "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+            }
+          ],
+          "round_digest": "65c445ef68d58b19fce0022be593427b1c9c8a9114da3c38ca289b37defb93f0",
+          "state": "CANCELLED",
+          "tasks": [
+            {
+              "commit": "0b06de5e1203b35f1338d9e61d1ccc6965face91",
+              "digest": "459086f5a0b2d6a0ac4e404faebf3660a49aa4b1712711521093380689f02304",
+              "eip": 712,
+              "requirement": "Review domain separation in typed structured data signatures.",
+              "title": "Typed signing domains"
+            },
+            {
+              "commit": "ba6c342c23164072adb500c3136e3ae6eabff306",
+              "digest": "4460ad966a22d8501e12d75165c2c784c61748d8128229f115ebac1bfccac59f",
+              "eip": 1559,
+              "requirement": "Review the base fee adjustment mechanism for transaction fee markets.",
+              "title": "Fee market review"
+            }
+          ],
+          "title": "Wallet standards review sprint / cancel"
+        }
+      },
+      "rollback_equal": true,
+      "verified": true
+    }
+  },
+  "expected_matrix": [
+    [
+      "FIT"
+    ],
+    [
+      "OUT"
+    ]
+  ],
+  "config": {
+    "architecture": "SEALED_BATCH_SEMANTIC_MATCHING",
+    "assignment_count": 5,
+    "capacity_scope": "PER_ROUND",
+    "deployer_authority": "NONE",
+    "funds": "NONE",
+    "max_attempts": 2,
+    "max_reviewers": 4,
+    "max_tasks": 4,
+    "round_count": 13,
+    "source_repository": "ethereum/EIPs",
+    "version": "SPEC_ROSTER_V4_CANDIDATE"
+  },
+  "final": {
+    "config": {
+      "architecture": "SEALED_BATCH_SEMANTIC_MATCHING",
+      "assignment_count": 6,
+      "capacity_scope": "PER_ROUND",
+      "deployer_authority": "NONE",
+      "funds": "NONE",
+      "max_attempts": 2,
+      "max_reviewers": 4,
+      "max_tasks": 4,
+      "round_count": 13,
+      "source_repository": "ethereum/EIPs",
+      "version": "SPEC_ROSTER_V4_CANDIDATE"
+    },
+    "focus": {
+      "method": "cancel_round",
+      "args": [
+        13
+      ]
+    },
+    "round": {
+      "allocation": [
+        {
+          "assignment_id": 6,
+          "reviewer": 0,
+          "task": 0
+        }
+      ],
+      "attempts": 1,
+      "consents": [
+        "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+      ],
+      "id": 13,
+      "invites": [
+        "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+      ],
+      "matrix": [
+        [
+          "FIT"
+        ],
+        [
+          "OUT"
+        ]
+      ],
+      "owner": "0xFeD97e2aE1A8C1983b7cA206B3545e6A2c685E43",
+      "reason": "OWNER_CANCELLED_UNFINISHED_WORK",
+      "reviewers": [
+        {
+          "capacity": 1,
+          "scope": "I review typed signatures, domain separation and replay protection. I exclude transaction fee markets and base fee economics.",
+          "wallet": "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+        }
+      ],
+      "round_digest": "65c445ef68d58b19fce0022be593427b1c9c8a9114da3c38ca289b37defb93f0",
+      "state": "CANCELLED",
+      "tasks": [
+        {
+          "commit": "0b06de5e1203b35f1338d9e61d1ccc6965face91",
+          "digest": "459086f5a0b2d6a0ac4e404faebf3660a49aa4b1712711521093380689f02304",
+          "eip": 712,
+          "requirement": "Review domain separation in typed structured data signatures.",
+          "title": "Typed signing domains"
+        },
+        {
+          "commit": "ba6c342c23164072adb500c3136e3ae6eabff306",
+          "digest": "4460ad966a22d8501e12d75165c2c784c61748d8128229f115ebac1bfccac59f",
+          "eip": 1559,
+          "requirement": "Review the base fee adjustment mechanism for transaction fee markets.",
+          "title": "Fee market review"
+        }
+      ],
+      "title": "Wallet standards review sprint / cancel"
+    }
+  }
+}

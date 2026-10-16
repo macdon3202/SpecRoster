@@ -1,0 +1,93 @@
+{
+  "hash": "0x702cdac4d7944debfe446deabe963d3f75d6872e26a63dfd488fb2993371447b",
+  "status": "FINALIZED",
+  "consensus": "MAJORITY_AGREE",
+  "receipts": [
+    {
+      "mode": "leader",
+      "vote": null,
+      "execution": "SUCCESS",
+      "genvm_result": {
+        "stderr": "",
+        "stdout": "SPEC_ROSTER_DIAGNOSTIC:RELATION:OUT\nSPEC_ROSTER_DIAGNOSTIC:RELATION:OUT\n",
+        "raw_error": null,
+        "error_code": null,
+        "error_description": null
+      },
+      "eq_outputs": {
+        "0": {
+          "raw": "AIQDeyJtYXRyaXgiOltbIk9VVCJdLFsiT1VUIl1dLCJzdGF0dXMiOiJPQlNFUlZFRCJ9",
+          "status": "return",
+          "payload": {
+            "raw": [
+              132,
+              3,
+              123,
+              34,
+              109,
+              97,
+              116,
+              114,
+              105,
+              120,
+              34,
+              58,
+              91,
+              91,
+              34,
+              79,
+              85,
+              84,
+              34,
+              93,
+              44,
+              91,
+              34,
+              79,
+              85,
+              84,
+              34,
+              93,
+              93,
+              44,
+              34,
+              115,
+              116,
+              97,
+              116,
+              117,
+              115,
+              34,
+              58,
+              34,
+              79,
+              66,
+              83,
+              69,
+              82,
+              86,
+              69,
+              68,
+              34,
+              125
+            ],
+            "readable": "\"{\\\"matrix\\\":[[\\\"OUT\\\"],[\\\"OUT\\\"]],\\\"status\\\":\\\"OBSERVED\\\"}\""
+          }
+        }
+      }
+    },
+    {
+      "mode": "validator",
+      "vote": "agree",
+      "execution": "SUCCESS",
+      "genvm_result": {
+        "stderr": "",
+        "stdout": "SPEC_ROSTER_DIAGNOSTIC:RELATION:OUT\nSPEC_ROSTER_DIAGNOSTIC:RELATION:OUT\n",
+        "raw_error": null,
+        "error_code": null,
+        "error_description": null
+      },
+      "eq_outputs": null
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "address": "0x7766cD870e3Ed9eA9Beb365550A7315d8E6DC462",
+  "version": "SPEC_ROSTER_V2",
+  "source_sha256": "47a02ed43013cc4b735a96418554743702842e4f80d7e3885ec06a213587daff",
+  "exact_bytes_match": true,
+  "main_wallet_used": false,
+  "completed_modes": [
+    "happy",
+    "preguards",
+    "sources"
+  ],
+  "signed_browser_e2e": false,
+  "failed_mode": "guards"
+}

@@ -1,0 +1,10 @@
+{
+  "kind": "UNMOCKED_DIRECT_MODE_PREFLIGHT",
+  "studionet": false,
+  "signed_browser_e2e": false,
+  "source_sha256": "a2b9d42a8e42ac746008b2d327413eeb71b0a8184249ff9d07c09faedcbac46a",
+  "corpus_sha256": "15cde6997da0a584e47075e9c614b3db7d1b9c35165a44d5a974c4218b00e11b",
+  "status": "BLOCKED",
+  "results": [],
+  "reason": "Explicit paid-API authorization not supplied; no model call made."
+}

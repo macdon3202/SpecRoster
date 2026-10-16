@@ -1,0 +1,82 @@
+{
+  "check": "FRONTEND_SDK_READ_ONLY",
+  "signed_browser_e2e": false,
+  "address": "0x7766cD870e3Ed9eA9Beb365550A7315d8E6DC462",
+  "config": {
+    "architecture": "SEALED_BATCH_SEMANTIC_MATCHING",
+    "assignment_count": 1,
+    "capacity_scope": "PER_ROUND",
+    "deployer_authority": "NONE",
+    "funds": "NONE",
+    "max_attempts": 2,
+    "max_reviewers": 4,
+    "max_tasks": 4,
+    "round_count": 2,
+    "source_repository": "ethereum/EIPs",
+    "version": "SPEC_ROSTER_V2"
+  },
+  "round": {
+    "allocation": [
+      {
+        "assignment_id": 1,
+        "reviewer": 0,
+        "task": 0
+      }
+    ],
+    "attempts": 2,
+    "consents": [
+      "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+    ],
+    "id": 2,
+    "invites": [
+      "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+    ],
+    "matrix": [
+      [
+        "FIT"
+      ],
+      [
+        "OUT"
+      ]
+    ],
+    "owner": "0xFeD97e2aE1A8C1983b7cA206B3545e6A2c685E43",
+    "reason": "ALL_ASSIGNMENTS_TERMINAL",
+    "reviewers": [
+      {
+        "capacity": 1,
+        "scope": "I review typed signatures, domain separation and replay protection. I exclude transaction fee markets and base fee economics.",
+        "wallet": "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+      }
+    ],
+    "round_digest": "b34ceaf1235a8dd40e093940eaff5ad9ab8597de550d2bcc46cafa23a7a9b83c",
+    "state": "CLOSED",
+    "tasks": [
+      {
+        "commit": "0b06de5e1203b35f1338d9e61d1ccc6965face91",
+        "digest": "459086f5a0b2d6a0ac4e404faebf3660a49aa4b1712711521093380689f02304",
+        "eip": 712,
+        "requirement": "Review domain separation in typed structured data signatures.",
+        "title": "Typed signing domains"
+      },
+      {
+        "commit": "ba6c342c23164072adb500c3136e3ae6eabff306",
+        "digest": "4460ad966a22d8501e12d75165c2c784c61748d8128229f115ebac1bfccac59f",
+        "eip": 1559,
+        "requirement": "Review the base fee adjustment mechanism for transaction fee markets.",
+        "title": "Fee market review"
+      }
+    ],
+    "title": "Wallet standards review sprint / happy"
+  },
+  "assignments": [
+    {
+      "assignee": "0xc67532aeF9D2879cBA9375a02E6217A3524657B8",
+      "id": 1,
+      "review": "Review note: inspect domain separation fields and replay assumptions. This submission does not certify implementation safety.",
+      "round_digest": "b34ceaf1235a8dd40e093940eaff5ad9ab8597de550d2bcc46cafa23a7a9b83c",
+      "round_id": 2,
+      "state": "SUBMITTED",
+      "task_index": 0
+    }
+  ]
+}

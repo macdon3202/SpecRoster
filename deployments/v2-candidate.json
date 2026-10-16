@@ -1,0 +1,12 @@
+{
+  "network": "studionet",
+  "contract": "0x7766cD870e3Ed9eA9Beb365550A7315d8E6DC462",
+  "version": "SPEC_ROSTER_V2",
+  "source_file": "contracts/archive/spec_roster_v2.py",
+  "source_sha256": "47a02ed43013cc4b735a96418554743702842e4f80d7e3885ec06a213587daff",
+  "deployed_source_exact_match": true,
+  "deployment_tx": null,
+  "status": "LIVE_GUARDS_BLOCKED_BY_FIT_GROUNDING",
+  "local_tests": {"contract_passed": 41, "frontend_passed": 16, "lint_passed": true, "build_passed": true},
+  "live_verified": false
+}

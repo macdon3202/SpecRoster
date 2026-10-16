@@ -1,0 +1,21 @@
+{
+  "check": "FRONTEND_SDK_READ_ONLY",
+  "date": "2026-10-16",
+  "signed_browser_e2e": false,
+  "address": "0x07B305921D3c315EBb6708e4F51797a57485bf90",
+  "command": "node tests/live-readback.mjs 0x07B305921D3c315EBb6708e4F51797a57485bf90 1",
+  "observed": {
+    "version": "SPEC_ROSTER_V1",
+    "round_count": 2,
+    "assignment_count": 0,
+    "round_id": 1,
+    "state": "CANCELLED",
+    "attempts": 2,
+    "matrix": [["UNKNOWN"], ["OUT"]],
+    "allocation": [],
+    "assignments": [],
+    "round_digest": "1fc8b09c717e4fd513a68f60460cbd6307aeb5646cb445294322142bfbecc1f3"
+  },
+  "result": "PASS",
+  "limitation": "Authoritative readback through frontend snapshot; not rendered UI or wallet-signing verification."
+}

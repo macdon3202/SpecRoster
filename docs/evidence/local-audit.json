@@ -1,0 +1,50 @@
+{
+  "kind": "COMPREHENSIVE_LOCAL_AUDIT",
+  "source_sha256": "a2b9d42a8e42ac746008b2d327413eeb71b0a8184249ff9d07c09faedcbac46a",
+  "checks": [
+    {
+      "command": [
+        "C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-m",
+        "pytest",
+        "tests",
+        "-q",
+        "--tb=short",
+        "-p",
+        "no:cacheprovider"
+      ],
+      "returncode": 0,
+      "stdout": "........................................................................ [ 49%]\n........................................................................ [ 99%]\n.                                                                        [100%]\n145 passed in 13.02s\n",
+      "stderr": "INFO: File `gltest.config.yaml` found in the current directory, using it\nINFO: Clearing artifacts directory: artifacts\nINFO: Using the following configuration:\nINFO:   RPC URL: http://127.0.0.1:4000/api\nINFO:   Selected Network: localnet\nINFO:   Available networks: ['localnet']\nINFO:   Selected chain type: localnet\nINFO:   Available chains: localnet, studionet, testnet_asimov, testnet_bradbury\nINFO:   Contracts directory: contracts\nINFO:   Artifacts directory: artifacts\nINFO:   Environment: .env\nINFO:   Default wait interval: 3000 ms\nINFO:   Default wait retries: 50\nINFO:   Leader only mode: False\n"
+    },
+    {
+      "command": [
+        "C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-m",
+        "genvm_linter.cli",
+        "check",
+        "contracts/spec_roster.py"
+      ],
+      "returncode": 0,
+      "stdout": "\n\u2713 Lint passed (3 checks)\n\u2713 Validation passed\n  Contract: SpecRoster\n  Methods: 11 (3 view, 8 write)\n  \u2139 py-genlayer: a newer runner is available (1zr6nqk597d97kg0dyxg0shhrykx5v02zjgnyrajapy4wlqvfvwh). See https://github.com/genlayerlabs/genvm/releases for changes.\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "npm.cmd",
+        "run",
+        "verify"
+      ],
+      "returncode": 0,
+      "stdout": "\n> specroster-frontend@1.0.0 verify\n> npm test && npm run build\n\n\n> specroster-frontend@1.0.0 test\n> node --test tests/*.test.mjs\n\n\u2714 top-level success cannot replace a missing authoritative leader (3.7088ms)\n\u2714 pending journal prevents duplicate signing after a readback/network failure (0.4315ms)\n\u2714 SDK bigint readbacks are normalized without unsafe integer rounding (1.5771ms)\n\u2714 normalizes supported hash shapes, rejects invalid wrappers (0.452ms)\n\u2714 submitted and accepted are never business success (0.2947ms)\n\u2714 finalized execution error or disagreement fail closed (0.2783ms)\n\u2714 does not select successful validator instead of failed leader (0.3125ms)\n\u2714 returned ID comes from exact transaction return, never global counter (0.4084ms)\n\u2714 create round readback owner/title/state is validated (1.1498ms)\n\u2714 incomplete finalized receipt stays pending, never unlocks duplicate signing (0.4455ms)\n\u2714 round selection rejects invalid, zero, negative, fractional and unsafe IDs (0.5446ms)\n\u2714 snapshot rejects cross-round, foreign assignee, wrong digest and capacity overflow (0.793ms)\n\u2714 stale selection and mismatched digest cannot appear successful (0.2694ms)\n\u2714 unresolved allocation is reconciled but never an assignment success (0.216ms)\n\u2714 assignment write checks exact ID round digest actor and note (0.3503ms)\n\u2714 cancellation must invalidate every unfinished assignment (0.2911ms)\n\u2714 connect uses selected EIP1193 provider without any Snap method (5.8033ms)\n\u2714 wallet switches wrong chain and rechecks it (0.7581ms)\n\u2714 user rejection and account changes invalidate connection (1.239ms)\n\u2139 tests 19\n\u2139 suites 0\n\u2139 pass 19\n\u2139 fail 0\n\u2139 cancelled 0\n\u2139 skipped 0\n\u2139 todo 0\n\u2139 duration_ms 855.0999\n\n> specroster-frontend@1.0.0 build\n> vite build\n\nvite v7.3.7 building client environment for production...\ntransforming...\n\u2713 476 modules transformed.\nrendering chunks...\ncomputing gzip size...\ndist/index.html                   0.57 kB \u2502 gzip:   0.37 kB\ndist/assets/index-B5gM0qsD.css    9.82 kB \u2502 gzip:   3.04 kB\ndist/assets/ccip-AfVPNE1L.js      2.89 kB \u2502 gzip:   1.33 kB\ndist/assets/index-D7tvTvjJ.js   736.89 kB \u2502 gzip: 179.91 kB\n\u2713 built in 4.57s\n",
+      "stderr": "\n(!) Some chunks are larger than 500 kB after minification. Consider:\n- Using dynamic import() to code-split the application\n- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks\n- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.\n"
+    }
+  ],
+  "ready_for_submission": false,
+  "live_verified": true,
+  "paid_api_preflight_required": false,
+  "status": "LIVE_PASS_BROWSER_PENDING",
+  "release_blockers": [
+    "Signed browser-wallet journey and rendered UI reconciliation remain to be proven on the production build."
+  ]
+}

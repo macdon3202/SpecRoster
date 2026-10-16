@@ -1,0 +1,16 @@
+{
+  "address": "0xB404f8Da18cc736aD21917929dc52993913F1D98",
+  "version": "SPEC_ROSTER_V4_CANDIDATE",
+  "source_sha256": "a2b9d42a8e42ac746008b2d327413eeb71b0a8184249ff9d07c09faedcbac46a",
+  "exact_bytes_match": true,
+  "main_wallet_used": false,
+  "completed_modes": [
+    "semantic",
+    "preguards",
+    "sources",
+    "happy",
+    "guards",
+    "cancel"
+  ],
+  "signed_browser_e2e": false
+}

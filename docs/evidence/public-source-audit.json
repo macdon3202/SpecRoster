@@ -1,0 +1,48 @@
+{
+  "kind": "REAL_PUBLIC_SOURCE_RETRIEVAL_ONLY",
+  "semantic_judgment": false,
+  "validator_network": false,
+  "fixture_sha256": "bd67f901375c4b18539d9294a4c3069e818da2918a02b488866340b0b9437c9b",
+  "source_sha256": "a2b9d42a8e42ac746008b2d327413eeb71b0a8184249ff9d07c09faedcbac46a",
+  "resources": [
+    {
+      "eip": 712,
+      "commit": "0b06de5e1203b35f1338d9e61d1ccc6965face91",
+      "expected_digest": "459086f5a0b2d6a0ac4e404faebf3660a49aa4b1712711521093380689f02304",
+      "commit_api": "https://api.github.com/repos/ethereum/EIPs/commits/0b06de5e1203b35f1338d9e61d1ccc6965face91",
+      "ancestry_api": "https://api.github.com/repos/ethereum/EIPs/compare/0b06de5e1203b35f1338d9e61d1ccc6965face91...master?per_page=1&page=2",
+      "raw_url": "https://raw.githubusercontent.com/ethereum/EIPs/0b06de5e1203b35f1338d9e61d1ccc6965face91/EIPS/eip-712.md",
+      "canonical_branch": "master",
+      "ancestry_status": "ahead",
+      "source_bytes": 22637,
+      "response_bytes": [
+        15101,
+        13680,
+        22637
+      ],
+      "redirects": false,
+      "exact_local_copy": true,
+      "passed": true
+    },
+    {
+      "eip": 1559,
+      "commit": "ba6c342c23164072adb500c3136e3ae6eabff306",
+      "expected_digest": "4460ad966a22d8501e12d75165c2c784c61748d8128229f115ebac1bfccac59f",
+      "commit_api": "https://api.github.com/repos/ethereum/EIPs/commits/ba6c342c23164072adb500c3136e3ae6eabff306",
+      "ancestry_api": "https://api.github.com/repos/ethereum/EIPs/compare/ba6c342c23164072adb500c3136e3ae6eabff306...master?per_page=1&page=2",
+      "raw_url": "https://raw.githubusercontent.com/ethereum/EIPs/ba6c342c23164072adb500c3136e3ae6eabff306/EIPS/eip-1559.md",
+      "canonical_branch": "master",
+      "ancestry_status": "ahead",
+      "source_bytes": 21053,
+      "response_bytes": [
+        6390,
+        13738,
+        21053
+      ],
+      "redirects": false,
+      "exact_local_copy": true,
+      "passed": true
+    }
+  ],
+  "status": "PASS"
+}

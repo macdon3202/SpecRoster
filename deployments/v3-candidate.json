@@ -1,0 +1,13 @@
+{
+  "version": "SPEC_ROSTER_V3",
+  "contract": "0xF7f8Ec0434F3Ca9C4976fcc106b49A2e98E4117B",
+  "source_file": "contracts/spec_roster.py",
+  "source_sha256": "c92c5890070afaf9513545aacff44b729708b9d3bad8c517d33953511f9a175b",
+  "status": "DEPLOYED_HAPPY_SEMANTIC_EXPECTATION_FAILED",
+  "deployed_source_exact_match": true,
+  "observed_matrix": [["OUT"], ["OUT"]],
+  "expected_matrix": [["FIT"], ["OUT"]],
+  "local_tests_passed": 49,
+  "genvm_validated": true,
+  "live_verified": false
+}

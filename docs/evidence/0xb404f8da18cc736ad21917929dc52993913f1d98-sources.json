@@ -1,0 +1,994 @@
+{
+  "contract": "0xB404f8Da18cc736aD21917929dc52993913F1D98",
+  "network": "studionet",
+  "mode": "sources",
+  "wallet_a": "0xFeD97e2aE1A8C1983b7cA206B3545e6A2c685E43",
+  "wallet_b": "0xc67532aeF9D2879cBA9375a02E6217A3524657B8",
+  "main_wallet_used": false,
+  "writes": {
+    "create": {
+      "method": "create_round",
+      "args": [
+        "Wallet standards review sprint / sources",
+        "[{\"title\": \"Typed signing domains\", \"requirement\": \"Review domain separation in typed structured data signatures.\", \"eip\": 712, \"commit\": \"0b06de5e1203b35f1338d9e61d1ccc6965face91\", \"digest\": \"0000000000000000000000000000000000000000000000000000000000000000\"}]",
+        "[\"0xc67532aeF9D2879cBA9375a02E6217A3524657B8\"]"
+      ],
+      "actor": "0xFeD97e2aE1A8C1983b7cA206B3545e6A2c685E43",
+      "expected_error": null,
+      "before": {
+        "config": {
+          "architecture": "SEALED_BATCH_SEMANTIC_MATCHING",
+          "assignment_count": 3,
+          "capacity_scope": "PER_ROUND",
+          "deployer_authority": "NONE",
+          "funds": "NONE",
+          "max_attempts": 2,
+          "max_reviewers": 4,
+          "max_tasks": 4,
+          "round_count": 10,
+          "source_repository": "ethereum/EIPs",
+          "version": "SPEC_ROSTER_V4_CANDIDATE"
+        },
+        "focus": {
+          "method": "create_round",
+          "args": [
+            "Wallet standards review sprint / sources",
+            "[{\"title\": \"Typed signing domains\", \"requirement\": \"Review domain separation in typed structured data signatures.\", \"eip\": 712, \"commit\": \"0b06de5e1203b35f1338d9e61d1ccc6965face91\", \"digest\": \"0000000000000000000000000000000000000000000000000000000000000000\"}]",
+            "[\"0xc67532aeF9D2879cBA9375a02E6217A3524657B8\"]"
+          ]
+        }
+      },
+      "hash": "0xbae551fba4063d9011f7a7214e9b4992a5af9a93f3be60964d6fe9688d6f5488",
+      "explorer": "https://explorer-studio.genlayer.com/tx/0xbae551fba4063d9011f7a7214e9b4992a5af9a93f3be60964d6fe9688d6f5488",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "leader": {
+        "execution_result": "SUCCESS",
+        "result": {
+          "raw": "AFk=",
+          "status": "return",
+          "payload": {
+            "raw": [
+              89
+            ],
+            "readable": "11"
+          }
+        },
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        }
+      },
+      "after": {
+        "config": {
+          "architecture": "SEALED_BATCH_SEMANTIC_MATCHING",
+          "assignment_count": 3,
+          "capacity_scope": "PER_ROUND",
+          "deployer_authority": "NONE",
+          "funds": "NONE",
+          "max_attempts": 2,
+          "max_reviewers": 4,
+          "max_tasks": 4,
+          "round_count": 11,
+          "source_repository": "ethereum/EIPs",
+          "version": "SPEC_ROSTER_V4_CANDIDATE"
+        },
+        "focus": {
+          "method": "create_round",
+          "args": [
+            "Wallet standards review sprint / sources",
+            "[{\"title\": \"Typed signing domains\", \"requirement\": \"Review domain separation in typed structured data signatures.\", \"eip\": 712, \"commit\": \"0b06de5e1203b35f1338d9e61d1ccc6965face91\", \"digest\": \"0000000000000000000000000000000000000000000000000000000000000000\"}]",
+            "[\"0xc67532aeF9D2879cBA9375a02E6217A3524657B8\"]"
+          ]
+        },
+        "round": {
+          "allocation": [],
+          "attempts": 0,
+          "consents": [],
+          "id": 11,
+          "invites": [
+            "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+          ],
+          "matrix": [],
+          "owner": "0xFeD97e2aE1A8C1983b7cA206B3545e6A2c685E43",
+          "reason": "INTAKE_OPEN",
+          "reviewers": [],
+          "round_digest": "",
+          "state": "OPEN",
+          "tasks": [
+            {
+              "commit": "0b06de5e1203b35f1338d9e61d1ccc6965face91",
+              "digest": "0000000000000000000000000000000000000000000000000000000000000000",
+              "eip": 712,
+              "requirement": "Review domain separation in typed structured data signatures.",
+              "title": "Typed signing domains"
+            }
+          ],
+          "title": "Wallet standards review sprint / sources"
+        }
+      },
+      "verified": true
+    },
+    "scope": {
+      "method": "register_scope",
+      "args": [
+        11,
+        "I review typed signatures, domain separation and replay protection. I exclude transaction fee markets and base fee economics.",
+        1
+      ],
+      "actor": "0xc67532aeF9D2879cBA9375a02E6217A3524657B8",
+      "expected_error": null,
+      "before": {
+        "config": {
+          "architecture": "SEALED_BATCH_SEMANTIC_MATCHING",
+          "assignment_count": 3,
+          "capacity_scope": "PER_ROUND",
+          "deployer_authority": "NONE",
+          "funds": "NONE",
+          "max_attempts": 2,
+          "max_reviewers": 4,
+          "max_tasks": 4,
+          "round_count": 11,
+          "source_repository": "ethereum/EIPs",
+          "version": "SPEC_ROSTER_V4_CANDIDATE"
+        },
+        "focus": {
+          "method": "register_scope",
+          "args": [
+            11,
+            "I review typed signatures, domain separation and replay protection. I exclude transaction fee markets and base fee economics.",
+            1
+          ]
+        },
+        "round": {
+          "allocation": [],
+          "attempts": 0,
+          "consents": [],
+          "id": 11,
+          "invites": [
+            "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+          ],
+          "matrix": [],
+          "owner": "0xFeD97e2aE1A8C1983b7cA206B3545e6A2c685E43",
+          "reason": "INTAKE_OPEN",
+          "reviewers": [],
+          "round_digest": "",
+          "state": "OPEN",
+          "tasks": [
+            {
+              "commit": "0b06de5e1203b35f1338d9e61d1ccc6965face91",
+              "digest": "0000000000000000000000000000000000000000000000000000000000000000",
+              "eip": 712,
+              "requirement": "Review domain separation in typed structured data signatures.",
+              "title": "Typed signing domains"
+            }
+          ],
+          "title": "Wallet standards review sprint / sources"
+        }
+      },
+      "hash": "0x1682a8e356f1e6e7186fcf90fb033cf861281170c932e4d54231e9cff0bc94b0",
+      "explorer": "https://explorer-studio.genlayer.com/tx/0x1682a8e356f1e6e7186fcf90fb033cf861281170c932e4d54231e9cff0bc94b0",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "leader": {
+        "execution_result": "SUCCESS",
+        "result": {
+          "raw": "AFRSRUdJU1RFUkVE",
+          "status": "return",
+          "payload": {
+            "raw": [
+              84,
+              82,
+              69,
+              71,
+              73,
+              83,
+              84,
+              69,
+              82,
+              69,
+              68
+            ],
+            "readable": "\"REGISTERED\""
+          }
+        },
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        }
+      },
+      "after": {
+        "config": {
+          "architecture": "SEALED_BATCH_SEMANTIC_MATCHING",
+          "assignment_count": 3,
+          "capacity_scope": "PER_ROUND",
+          "deployer_authority": "NONE",
+          "funds": "NONE",
+          "max_attempts": 2,
+          "max_reviewers": 4,
+          "max_tasks": 4,
+          "round_count": 11,
+          "source_repository": "ethereum/EIPs",
+          "version": "SPEC_ROSTER_V4_CANDIDATE"
+        },
+        "focus": {
+          "method": "register_scope",
+          "args": [
+            11,
+            "I review typed signatures, domain separation and replay protection. I exclude transaction fee markets and base fee economics.",
+            1
+          ]
+        },
+        "round": {
+          "allocation": [],
+          "attempts": 0,
+          "consents": [],
+          "id": 11,
+          "invites": [
+            "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+          ],
+          "matrix": [],
+          "owner": "0xFeD97e2aE1A8C1983b7cA206B3545e6A2c685E43",
+          "reason": "INTAKE_OPEN",
+          "reviewers": [
+            {
+              "capacity": 1,
+              "scope": "I review typed signatures, domain separation and replay protection. I exclude transaction fee markets and base fee economics.",
+              "wallet": "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+            }
+          ],
+          "round_digest": "",
+          "state": "OPEN",
+          "tasks": [
+            {
+              "commit": "0b06de5e1203b35f1338d9e61d1ccc6965face91",
+              "digest": "0000000000000000000000000000000000000000000000000000000000000000",
+              "eip": 712,
+              "requirement": "Review domain separation in typed structured data signatures.",
+              "title": "Typed signing domains"
+            }
+          ],
+          "title": "Wallet standards review sprint / sources"
+        }
+      },
+      "verified": true
+    },
+    "freeze": {
+      "method": "freeze_round",
+      "args": [
+        11
+      ],
+      "actor": "0xFeD97e2aE1A8C1983b7cA206B3545e6A2c685E43",
+      "expected_error": null,
+      "before": {
+        "config": {
+          "architecture": "SEALED_BATCH_SEMANTIC_MATCHING",
+          "assignment_count": 3,
+          "capacity_scope": "PER_ROUND",
+          "deployer_authority": "NONE",
+          "funds": "NONE",
+          "max_attempts": 2,
+          "max_reviewers": 4,
+          "max_tasks": 4,
+          "round_count": 11,
+          "source_repository": "ethereum/EIPs",
+          "version": "SPEC_ROSTER_V4_CANDIDATE"
+        },
+        "focus": {
+          "method": "freeze_round",
+          "args": [
+            11
+          ]
+        },
+        "round": {
+          "allocation": [],
+          "attempts": 0,
+          "consents": [],
+          "id": 11,
+          "invites": [
+            "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+          ],
+          "matrix": [],
+          "owner": "0xFeD97e2aE1A8C1983b7cA206B3545e6A2c685E43",
+          "reason": "INTAKE_OPEN",
+          "reviewers": [
+            {
+              "capacity": 1,
+              "scope": "I review typed signatures, domain separation and replay protection. I exclude transaction fee markets and base fee economics.",
+              "wallet": "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+            }
+          ],
+          "round_digest": "",
+          "state": "OPEN",
+          "tasks": [
+            {
+              "commit": "0b06de5e1203b35f1338d9e61d1ccc6965face91",
+              "digest": "0000000000000000000000000000000000000000000000000000000000000000",
+              "eip": 712,
+              "requirement": "Review domain separation in typed structured data signatures.",
+              "title": "Typed signing domains"
+            }
+          ],
+          "title": "Wallet standards review sprint / sources"
+        }
+      },
+      "hash": "0x7eaf4299c936f1fead9fbc709275e5b410269a75a70c2db68313888baaa05222",
+      "explorer": "https://explorer-studio.genlayer.com/tx/0x7eaf4299c936f1fead9fbc709275e5b410269a75a70c2db68313888baaa05222",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "leader": {
+        "execution_result": "SUCCESS",
+        "result": {
+          "raw": "AIQENjE3ODJlNjlkMTJjNmY4NmY5NmYwNmJlNjE3NmQ5YzE2MGM3M2E2YmY0YTJiYTJlNzAyNWNhZTQzMTE1OWUwZA==",
+          "status": "return",
+          "payload": {
+            "raw": [
+              132,
+              4,
+              54,
+              49,
+              55,
+              56,
+              50,
+              101,
+              54,
+              57,
+              100,
+              49,
+              50,
+              99,
+              54,
+              102,
+              56,
+              54,
+              102,
+              57,
+              54,
+              102,
+              48,
+              54,
+              98,
+              101,
+              54,
+              49,
+              55,
+              54,
+              100,
+              57,
+              99,
+              49,
+              54,
+              48,
+              99,
+              55,
+              51,
+              97,
+              54,
+              98,
+              102,
+              52,
+              97,
+              50,
+              98,
+              97,
+              50,
+              101,
+              55,
+              48,
+              50,
+              53,
+              99,
+              97,
+              101,
+              52,
+              51,
+              49,
+              49,
+              53,
+              57,
+              101,
+              48,
+              100
+            ],
+            "readable": "\"61782e69d12c6f86f96f06be6176d9c160c73a6bf4a2ba2e7025cae431159e0d\""
+          }
+        },
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        }
+      },
+      "after": {
+        "config": {
+          "architecture": "SEALED_BATCH_SEMANTIC_MATCHING",
+          "assignment_count": 3,
+          "capacity_scope": "PER_ROUND",
+          "deployer_authority": "NONE",
+          "funds": "NONE",
+          "max_attempts": 2,
+          "max_reviewers": 4,
+          "max_tasks": 4,
+          "round_count": 11,
+          "source_repository": "ethereum/EIPs",
+          "version": "SPEC_ROSTER_V4_CANDIDATE"
+        },
+        "focus": {
+          "method": "freeze_round",
+          "args": [
+            11
+          ]
+        },
+        "round": {
+          "allocation": [],
+          "attempts": 0,
+          "consents": [],
+          "id": 11,
+          "invites": [
+            "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+          ],
+          "matrix": [],
+          "owner": "0xFeD97e2aE1A8C1983b7cA206B3545e6A2c685E43",
+          "reason": "EXACT_CONSENT_REQUIRED",
+          "reviewers": [
+            {
+              "capacity": 1,
+              "scope": "I review typed signatures, domain separation and replay protection. I exclude transaction fee markets and base fee economics.",
+              "wallet": "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+            }
+          ],
+          "round_digest": "61782e69d12c6f86f96f06be6176d9c160c73a6bf4a2ba2e7025cae431159e0d",
+          "state": "FROZEN",
+          "tasks": [
+            {
+              "commit": "0b06de5e1203b35f1338d9e61d1ccc6965face91",
+              "digest": "0000000000000000000000000000000000000000000000000000000000000000",
+              "eip": 712,
+              "requirement": "Review domain separation in typed structured data signatures.",
+              "title": "Typed signing domains"
+            }
+          ],
+          "title": "Wallet standards review sprint / sources"
+        }
+      },
+      "verified": true
+    },
+    "consent": {
+      "method": "consent_round",
+      "args": [
+        11,
+        "61782e69d12c6f86f96f06be6176d9c160c73a6bf4a2ba2e7025cae431159e0d"
+      ],
+      "actor": "0xc67532aeF9D2879cBA9375a02E6217A3524657B8",
+      "expected_error": null,
+      "before": {
+        "config": {
+          "architecture": "SEALED_BATCH_SEMANTIC_MATCHING",
+          "assignment_count": 3,
+          "capacity_scope": "PER_ROUND",
+          "deployer_authority": "NONE",
+          "funds": "NONE",
+          "max_attempts": 2,
+          "max_reviewers": 4,
+          "max_tasks": 4,
+          "round_count": 11,
+          "source_repository": "ethereum/EIPs",
+          "version": "SPEC_ROSTER_V4_CANDIDATE"
+        },
+        "focus": {
+          "method": "consent_round",
+          "args": [
+            11,
+            "61782e69d12c6f86f96f06be6176d9c160c73a6bf4a2ba2e7025cae431159e0d"
+          ]
+        },
+        "round": {
+          "allocation": [],
+          "attempts": 0,
+          "consents": [
+            "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+          ],
+          "id": 11,
+          "invites": [
+            "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+          ],
+          "matrix": [],
+          "owner": "0xFeD97e2aE1A8C1983b7cA206B3545e6A2c685E43",
+          "reason": "EXACT_CONSENT_REQUIRED",
+          "reviewers": [
+            {
+              "capacity": 1,
+              "scope": "I review typed signatures, domain separation and replay protection. I exclude transaction fee markets and base fee economics.",
+              "wallet": "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+            }
+          ],
+          "round_digest": "61782e69d12c6f86f96f06be6176d9c160c73a6bf4a2ba2e7025cae431159e0d",
+          "state": "FROZEN",
+          "tasks": [
+            {
+              "commit": "0b06de5e1203b35f1338d9e61d1ccc6965face91",
+              "digest": "0000000000000000000000000000000000000000000000000000000000000000",
+              "eip": 712,
+              "requirement": "Review domain separation in typed structured data signatures.",
+              "title": "Typed signing domains"
+            }
+          ],
+          "title": "Wallet standards review sprint / sources"
+        }
+      },
+      "ethereum_hash": "0xd24648d86d0e1af3cc7907a4534c01f06aa762c8b20ce115de4ac42e30e4c764",
+      "hash": "0xd24648d86d0e1af3cc7907a4534c01f06aa762c8b20ce115de4ac42e30e4c764",
+      "explorer": "https://explorer-studio.genlayer.com/tx/0xd24648d86d0e1af3cc7907a4534c01f06aa762c8b20ce115de4ac42e30e4c764",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "leader": {
+        "execution_result": "ERROR",
+        "result": {
+          "raw": "AUNPTlNFTlRfQUxSRUFEWV9SRUNPUkRFRA==",
+          "status": "rollback",
+          "payload": "CONSENT_ALREADY_RECORDED"
+        },
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        }
+      },
+      "after": {
+        "config": {
+          "architecture": "SEALED_BATCH_SEMANTIC_MATCHING",
+          "assignment_count": 3,
+          "capacity_scope": "PER_ROUND",
+          "deployer_authority": "NONE",
+          "funds": "NONE",
+          "max_attempts": 2,
+          "max_reviewers": 4,
+          "max_tasks": 4,
+          "round_count": 11,
+          "source_repository": "ethereum/EIPs",
+          "version": "SPEC_ROSTER_V4_CANDIDATE"
+        },
+        "focus": {
+          "method": "consent_round",
+          "args": [
+            11,
+            "61782e69d12c6f86f96f06be6176d9c160c73a6bf4a2ba2e7025cae431159e0d"
+          ]
+        },
+        "round": {
+          "allocation": [],
+          "attempts": 0,
+          "consents": [
+            "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+          ],
+          "id": 11,
+          "invites": [
+            "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+          ],
+          "matrix": [],
+          "owner": "0xFeD97e2aE1A8C1983b7cA206B3545e6A2c685E43",
+          "reason": "EXACT_CONSENT_REQUIRED",
+          "reviewers": [
+            {
+              "capacity": 1,
+              "scope": "I review typed signatures, domain separation and replay protection. I exclude transaction fee markets and base fee economics.",
+              "wallet": "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+            }
+          ],
+          "round_digest": "61782e69d12c6f86f96f06be6176d9c160c73a6bf4a2ba2e7025cae431159e0d",
+          "state": "FROZEN",
+          "tasks": [
+            {
+              "commit": "0b06de5e1203b35f1338d9e61d1ccc6965face91",
+              "digest": "0000000000000000000000000000000000000000000000000000000000000000",
+              "eip": 712,
+              "requirement": "Review domain separation in typed structured data signatures.",
+              "title": "Typed signing domains"
+            }
+          ],
+          "title": "Wallet standards review sprint / sources"
+        }
+      }
+    },
+    "allocate": {
+      "method": "allocate_round",
+      "args": [
+        11,
+        "61782e69d12c6f86f96f06be6176d9c160c73a6bf4a2ba2e7025cae431159e0d"
+      ],
+      "actor": "0xFeD97e2aE1A8C1983b7cA206B3545e6A2c685E43",
+      "expected_error": null,
+      "before": {
+        "config": {
+          "architecture": "SEALED_BATCH_SEMANTIC_MATCHING",
+          "assignment_count": 4,
+          "capacity_scope": "PER_ROUND",
+          "deployer_authority": "NONE",
+          "funds": "NONE",
+          "max_attempts": 2,
+          "max_reviewers": 4,
+          "max_tasks": 4,
+          "round_count": 12,
+          "source_repository": "ethereum/EIPs",
+          "version": "SPEC_ROSTER_V4_CANDIDATE"
+        },
+        "focus": {
+          "method": "allocate_round",
+          "args": [
+            11,
+            "61782e69d12c6f86f96f06be6176d9c160c73a6bf4a2ba2e7025cae431159e0d"
+          ]
+        },
+        "round": {
+          "allocation": [],
+          "attempts": 0,
+          "consents": [
+            "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+          ],
+          "id": 11,
+          "invites": [
+            "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+          ],
+          "matrix": [],
+          "owner": "0xFeD97e2aE1A8C1983b7cA206B3545e6A2c685E43",
+          "reason": "EXACT_CONSENT_REQUIRED",
+          "reviewers": [
+            {
+              "capacity": 1,
+              "scope": "I review typed signatures, domain separation and replay protection. I exclude transaction fee markets and base fee economics.",
+              "wallet": "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+            }
+          ],
+          "round_digest": "61782e69d12c6f86f96f06be6176d9c160c73a6bf4a2ba2e7025cae431159e0d",
+          "state": "FROZEN",
+          "tasks": [
+            {
+              "commit": "0b06de5e1203b35f1338d9e61d1ccc6965face91",
+              "digest": "0000000000000000000000000000000000000000000000000000000000000000",
+              "eip": 712,
+              "requirement": "Review domain separation in typed structured data signatures.",
+              "title": "Typed signing domains"
+            }
+          ],
+          "title": "Wallet standards review sprint / sources"
+        }
+      },
+      "ethereum_hash": "0x1d30a39089aac6c5b942a501ef0b99d9ff2dd0f9a392cb911dc895e97a88b3d2",
+      "hash": "0x1d30a39089aac6c5b942a501ef0b99d9ff2dd0f9a392cb911dc895e97a88b3d2",
+      "explorer": "https://explorer-studio.genlayer.com/tx/0x1d30a39089aac6c5b942a501ef0b99d9ff2dd0f9a392cb911dc895e97a88b3d2",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "leader": {
+        "execution_result": "SUCCESS",
+        "result": {
+          "raw": "AFRVTlJFU09MVkVE",
+          "status": "return",
+          "payload": {
+            "raw": [
+              84,
+              85,
+              78,
+              82,
+              69,
+              83,
+              79,
+              76,
+              86,
+              69,
+              68
+            ],
+            "readable": "\"UNRESOLVED\""
+          }
+        },
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "SPEC_ROSTER_DIAGNOSTIC:SOURCE_EXCEPTION:ValueError\n",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        }
+      },
+      "after": {
+        "config": {
+          "architecture": "SEALED_BATCH_SEMANTIC_MATCHING",
+          "assignment_count": 4,
+          "capacity_scope": "PER_ROUND",
+          "deployer_authority": "NONE",
+          "funds": "NONE",
+          "max_attempts": 2,
+          "max_reviewers": 4,
+          "max_tasks": 4,
+          "round_count": 12,
+          "source_repository": "ethereum/EIPs",
+          "version": "SPEC_ROSTER_V4_CANDIDATE"
+        },
+        "focus": {
+          "method": "allocate_round",
+          "args": [
+            11,
+            "61782e69d12c6f86f96f06be6176d9c160c73a6bf4a2ba2e7025cae431159e0d"
+          ]
+        },
+        "round": {
+          "allocation": [],
+          "attempts": 1,
+          "consents": [
+            "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+          ],
+          "id": 11,
+          "invites": [
+            "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+          ],
+          "matrix": [],
+          "owner": "0xFeD97e2aE1A8C1983b7cA206B3545e6A2c685E43",
+          "reason": "NO_SAFE_COMPLETE_MATRIX",
+          "reviewers": [
+            {
+              "capacity": 1,
+              "scope": "I review typed signatures, domain separation and replay protection. I exclude transaction fee markets and base fee economics.",
+              "wallet": "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+            }
+          ],
+          "round_digest": "61782e69d12c6f86f96f06be6176d9c160c73a6bf4a2ba2e7025cae431159e0d",
+          "state": "UNRESOLVED",
+          "tasks": [
+            {
+              "commit": "0b06de5e1203b35f1338d9e61d1ccc6965face91",
+              "digest": "0000000000000000000000000000000000000000000000000000000000000000",
+              "eip": 712,
+              "requirement": "Review domain separation in typed structured data signatures.",
+              "title": "Typed signing domains"
+            }
+          ],
+          "title": "Wallet standards review sprint / sources"
+        }
+      },
+      "verified": true
+    },
+    "cancel": {
+      "method": "cancel_round",
+      "args": [
+        11,
+        "61782e69d12c6f86f96f06be6176d9c160c73a6bf4a2ba2e7025cae431159e0d"
+      ],
+      "actor": "0xFeD97e2aE1A8C1983b7cA206B3545e6A2c685E43",
+      "expected_error": null,
+      "before": {
+        "config": {
+          "architecture": "SEALED_BATCH_SEMANTIC_MATCHING",
+          "assignment_count": 4,
+          "capacity_scope": "PER_ROUND",
+          "deployer_authority": "NONE",
+          "funds": "NONE",
+          "max_attempts": 2,
+          "max_reviewers": 4,
+          "max_tasks": 4,
+          "round_count": 12,
+          "source_repository": "ethereum/EIPs",
+          "version": "SPEC_ROSTER_V4_CANDIDATE"
+        },
+        "focus": {
+          "method": "cancel_round",
+          "args": [
+            11,
+            "61782e69d12c6f86f96f06be6176d9c160c73a6bf4a2ba2e7025cae431159e0d"
+          ]
+        },
+        "round": {
+          "allocation": [],
+          "attempts": 1,
+          "consents": [
+            "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+          ],
+          "id": 11,
+          "invites": [
+            "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+          ],
+          "matrix": [],
+          "owner": "0xFeD97e2aE1A8C1983b7cA206B3545e6A2c685E43",
+          "reason": "NO_SAFE_COMPLETE_MATRIX",
+          "reviewers": [
+            {
+              "capacity": 1,
+              "scope": "I review typed signatures, domain separation and replay protection. I exclude transaction fee markets and base fee economics.",
+              "wallet": "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+            }
+          ],
+          "round_digest": "61782e69d12c6f86f96f06be6176d9c160c73a6bf4a2ba2e7025cae431159e0d",
+          "state": "UNRESOLVED",
+          "tasks": [
+            {
+              "commit": "0b06de5e1203b35f1338d9e61d1ccc6965face91",
+              "digest": "0000000000000000000000000000000000000000000000000000000000000000",
+              "eip": 712,
+              "requirement": "Review domain separation in typed structured data signatures.",
+              "title": "Typed signing domains"
+            }
+          ],
+          "title": "Wallet standards review sprint / sources"
+        }
+      },
+      "ethereum_hash": "0x3b4cce8cdb4cdec4a0ee54ba37655faf9c9353abcf8572f7e69dc58da9de3eb0",
+      "hash": "0x3b4cce8cdb4cdec4a0ee54ba37655faf9c9353abcf8572f7e69dc58da9de3eb0",
+      "explorer": "https://explorer-studio.genlayer.com/tx/0x3b4cce8cdb4cdec4a0ee54ba37655faf9c9353abcf8572f7e69dc58da9de3eb0",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "leader": {
+        "execution_result": "SUCCESS",
+        "result": {
+          "raw": "AExDQU5DRUxMRUQ=",
+          "status": "return",
+          "payload": {
+            "raw": [
+              76,
+              67,
+              65,
+              78,
+              67,
+              69,
+              76,
+              76,
+              69,
+              68
+            ],
+            "readable": "\"CANCELLED\""
+          }
+        },
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        }
+      },
+      "after": {
+        "config": {
+          "architecture": "SEALED_BATCH_SEMANTIC_MATCHING",
+          "assignment_count": 4,
+          "capacity_scope": "PER_ROUND",
+          "deployer_authority": "NONE",
+          "funds": "NONE",
+          "max_attempts": 2,
+          "max_reviewers": 4,
+          "max_tasks": 4,
+          "round_count": 12,
+          "source_repository": "ethereum/EIPs",
+          "version": "SPEC_ROSTER_V4_CANDIDATE"
+        },
+        "focus": {
+          "method": "cancel_round",
+          "args": [
+            11,
+            "61782e69d12c6f86f96f06be6176d9c160c73a6bf4a2ba2e7025cae431159e0d"
+          ]
+        },
+        "round": {
+          "allocation": [],
+          "attempts": 1,
+          "consents": [
+            "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+          ],
+          "id": 11,
+          "invites": [
+            "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+          ],
+          "matrix": [],
+          "owner": "0xFeD97e2aE1A8C1983b7cA206B3545e6A2c685E43",
+          "reason": "OWNER_CANCELLED_UNFINISHED_WORK",
+          "reviewers": [
+            {
+              "capacity": 1,
+              "scope": "I review typed signatures, domain separation and replay protection. I exclude transaction fee markets and base fee economics.",
+              "wallet": "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+            }
+          ],
+          "round_digest": "61782e69d12c6f86f96f06be6176d9c160c73a6bf4a2ba2e7025cae431159e0d",
+          "state": "CANCELLED",
+          "tasks": [
+            {
+              "commit": "0b06de5e1203b35f1338d9e61d1ccc6965face91",
+              "digest": "0000000000000000000000000000000000000000000000000000000000000000",
+              "eip": 712,
+              "requirement": "Review domain separation in typed structured data signatures.",
+              "title": "Typed signing domains"
+            }
+          ],
+          "title": "Wallet standards review sprint / sources"
+        }
+      },
+      "verified": true
+    }
+  },
+  "expected_matrix": [
+    [
+      "FIT"
+    ],
+    [
+      "OUT"
+    ]
+  ],
+  "config": {
+    "architecture": "SEALED_BATCH_SEMANTIC_MATCHING",
+    "assignment_count": 4,
+    "capacity_scope": "PER_ROUND",
+    "deployer_authority": "NONE",
+    "funds": "NONE",
+    "max_attempts": 2,
+    "max_reviewers": 4,
+    "max_tasks": 4,
+    "round_count": 12,
+    "source_repository": "ethereum/EIPs",
+    "version": "SPEC_ROSTER_V4_CANDIDATE"
+  },
+  "consent_recovery": {
+    "verified_from_state": true,
+    "round_id": 11,
+    "wallet": "0xc67532aeF9D2879cBA9375a02E6217A3524657B8",
+    "reason": "A prior submission completed despite an RPC/receipt interruption; no duplicate write sent."
+  },
+  "final": {
+    "config": {
+      "architecture": "SEALED_BATCH_SEMANTIC_MATCHING",
+      "assignment_count": 4,
+      "capacity_scope": "PER_ROUND",
+      "deployer_authority": "NONE",
+      "funds": "NONE",
+      "max_attempts": 2,
+      "max_reviewers": 4,
+      "max_tasks": 4,
+      "round_count": 12,
+      "source_repository": "ethereum/EIPs",
+      "version": "SPEC_ROSTER_V4_CANDIDATE"
+    },
+    "focus": {
+      "method": "cancel_round",
+      "args": [
+        11
+      ]
+    },
+    "round": {
+      "allocation": [],
+      "attempts": 1,
+      "consents": [
+        "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+      ],
+      "id": 11,
+      "invites": [
+        "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+      ],
+      "matrix": [],
+      "owner": "0xFeD97e2aE1A8C1983b7cA206B3545e6A2c685E43",
+      "reason": "OWNER_CANCELLED_UNFINISHED_WORK",
+      "reviewers": [
+        {
+          "capacity": 1,
+          "scope": "I review typed signatures, domain separation and replay protection. I exclude transaction fee markets and base fee economics.",
+          "wallet": "0xc67532aef9d2879cba9375a02e6217a3524657b8"
+        }
+      ],
+      "round_digest": "61782e69d12c6f86f96f06be6176d9c160c73a6bf4a2ba2e7025cae431159e0d",
+      "state": "CANCELLED",
+      "tasks": [
+        {
+          "commit": "0b06de5e1203b35f1338d9e61d1ccc6965face91",
+          "digest": "0000000000000000000000000000000000000000000000000000000000000000",
+          "eip": 712,
+          "requirement": "Review domain separation in typed structured data signatures.",
+          "title": "Typed signing domains"
+        }
+      ],
+      "title": "Wallet standards review sprint / sources"
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "round_title": "Wallet standards review sprint",
+  "reviewer_scope": "I review typed signatures, domain separation and replay protection. I exclude transaction fee markets and base fee economics.",
+  "capacity": 1,
+  "tasks": [
+    {
+      "title": "Typed signing domains",
+      "requirement": "Review domain separation in typed structured data signatures.",
+      "eip": 712,
+      "commit": "0b06de5e1203b35f1338d9e61d1ccc6965face91",
+      "digest": "459086f5a0b2d6a0ac4e404faebf3660a49aa4b1712711521093380689f02304"
+    },
+    {
+      "title": "Fee market review",
+      "requirement": "Review the base fee adjustment mechanism for transaction fee markets.",
+      "eip": 1559,
+      "commit": "ba6c342c23164072adb500c3136e3ae6eabff306",
+      "digest": "4460ad966a22d8501e12d75165c2c784c61748d8128229f115ebac1bfccac59f"
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": "eip-712",
+      "purpose": "positive",
+      "authoritative_owner": "ethereum/EIPs maintainers",
+      "canonical_origin": "raw.githubusercontent.com/ethereum/EIPs",
+      "commit_api": "https://api.github.com/repos/ethereum/EIPs/commits/0b06de5e1203b35f1338d9e61d1ccc6965face91",
+      "canonical_url_or_api": "https://raw.githubusercontent.com/ethereum/EIPs/0b06de5e1203b35f1338d9e61d1ccc6965face91/EIPS/eip-712.md",
+      "repository_and_object_id": "ethereum/EIPs:EIPS/eip-712.md",
+      "revision_or_commit": "0b06de5e1203b35f1338d9e61d1ccc6965face91",
+      "expected_content_type": "UTF-8 Markdown",
+      "expected_digest_algorithm": "SHA-256",
+      "expected_digest": "459086f5a0b2d6a0ac4e404faebf3660a49aa4b1712711521093380689f02304",
+      "source_bytes": 22637,
+      "expected_deterministic_facts": [
+        "exact commit repository",
+        "matching EIP frontmatter",
+        "full content digest"
+      ],
+      "expected_contract_relation": "FIT",
+      "mutable_or_immutable": "full-commit-pinned",
+      "claim_being_proved": "task scope relation to the published standard text",
+      "github_authority_scope": "exact commit and file bytes, not implementation or CI",
+      "publisher_controller": "ethereum/EIPs maintainers",
+      "positive_state_beneficiary": "reviewer gains one in-app work assignment",
+      "can_beneficiary_manufacture_fact_alone": false,
+      "what_this_source_cannot_prove": "expertise, implemented behavior, CI success, adoption, or review quality"
+    },
+    {
+      "resource_id": "eip-1559",
+      "purpose": "negative-scope",
+      "authoritative_owner": "ethereum/EIPs maintainers",
+      "canonical_origin": "raw.githubusercontent.com/ethereum/EIPs",
+      "commit_api": "https://api.github.com/repos/ethereum/EIPs/commits/ba6c342c23164072adb500c3136e3ae6eabff306",
+      "canonical_url_or_api": "https://raw.githubusercontent.com/ethereum/EIPs/ba6c342c23164072adb500c3136e3ae6eabff306/EIPS/eip-1559.md",
+      "repository_and_object_id": "ethereum/EIPs:EIPS/eip-1559.md",
+      "revision_or_commit": "ba6c342c23164072adb500c3136e3ae6eabff306",
+      "expected_content_type": "UTF-8 Markdown",
+      "expected_digest_algorithm": "SHA-256",
+      "expected_digest": "4460ad966a22d8501e12d75165c2c784c61748d8128229f115ebac1bfccac59f",
+      "source_bytes": 21053,
+      "expected_deterministic_facts": [
+        "exact commit repository",
+        "matching EIP frontmatter",
+        "full content digest"
+      ],
+      "expected_contract_relation": "OUT",
+      "mutable_or_immutable": "full-commit-pinned",
+      "claim_being_proved": "task scope relation to the published standard text",
+      "github_authority_scope": "exact commit and file bytes, not implementation or CI",
+      "publisher_controller": "ethereum/EIPs maintainers",
+      "positive_state_beneficiary": "reviewer gains one in-app work assignment",
+      "can_beneficiary_manufacture_fact_alone": false,
+      "what_this_source_cannot_prove": "expertise, implemented behavior, CI success, adoption, or review quality"
+    }
+  ],
+  "expected_matrix": [
+    [
+      "FIT"
+    ],
+    [
+      "OUT"
+    ]
+  ],
+  "expected_allocation": [
+    {
+      "task": 0,
+      "reviewer": 0
+    }
+  ],
+  "source_check": "Public fetch successful; validator-network access remains unverified until deployment."
+}
