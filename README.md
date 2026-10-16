@@ -1,5 +1,11 @@
 # SpecRoster
 
+Live app: [https://specroster.pages.dev](https://specroster.pages.dev)
+
+Reviewer evidence: [StudioNet V4 E2E](docs/STUDIONET_V4_E2E.md)
+
+Contract: [0xB404f8Da18cc736aD21917929dc52993913F1D98](https://explorer-studio.genlayer.com/address/0xB404f8Da18cc736aD21917929dc52993913F1D98)
+
 ## Current release boundary
 
 **Current V4: exact-source StudioNet deployment and complete SDK live suite pass;
